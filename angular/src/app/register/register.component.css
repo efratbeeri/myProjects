@@ -1,0 +1,16 @@
+.save{
+   align-items: end;
+}
+#background{
+   background-color: #ff8a00;;
+   height: 35vw;
+   width: 50vw;
+   left: 0vw ;
+}
+.example-form{
+   position: absolute; /* הוסף את זה */
+   z-index: 1;
+   top: 20%; 
+   left: 7%;
+}
+

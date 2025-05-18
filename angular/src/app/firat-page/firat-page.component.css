@@ -1,0 +1,41 @@
+
+body {
+    /* background-image: url('../../../../angular/public/image/2.png'); */
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: round;
+    position: relative; /* הוסף את זה */
+}
+#background{
+    background-color: #ff8a00;;
+    height: 30vw;
+    width: 50vw;
+    left: 0vw ;
+}
+#back {
+    background-color: #ffffff9e;
+    width:27vw;
+    height: 45vh;
+    position: absolute; /* הוסף את זה */
+    z-index: 1;
+    top: 7%; 
+    left: 5vw; /* זה ימקם את ה-DIV בצד שמאל */
+
+}
+#input{
+    margin: 10%;
+
+}
+.example-form {
+    min-width: 50px;
+    max-width: 15vw;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+form{
+    margin: 2vw;
+}

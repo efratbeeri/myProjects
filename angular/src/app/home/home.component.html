@@ -1,0 +1,46 @@
+<div class="cards-container">
+  <mat-card class="example-card" appearance="outlined" *ngFor="let element of presentList">
+    <div class="winner-overlay" *ngIf="isWinner(element.id)">
+      <p> :הזוכה המאושר
+        <br>
+         <!-- {{ getWinnerName(element.id) }} -->
+        </p>
+    </div>
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{ element.name }}</mat-card-title>
+      <mat-card-subtitle>{{ element.kategory }}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="'/image/' + element.image" alt="{{ element.name }}">
+    <mat-card-content>
+      <p>מחיר כרטיס: {{ element.price }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-icon-button class="action-button" (click)="removeFromCart(element.id)">
+        <mat-icon>remove</mat-icon>
+      </button>
+      <button mat-icon-button class="action-button" (click)="addToCart(element.id)">
+        <mat-icon>add</mat-icon>
+      </button >
+      <button mat-button *ngIf="app.isAdmin" class="draw-button" (click)="toDraw(element.id)">
+        הגרל
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+
+<!-- <div> {{sums}}</div> -->
+
+<div class="overlay" *ngIf="showOverlay">
+  <div class="fireworks">
+    <div class="particle" style="top: 20%; left: 30%;"></div>
+    <div class="particle" style="top: 50%; left: 70%;"></div>
+    <div class="particle" style="top: 80%; left: 40%;"></div>
+    <div class="particle" style="top: 30%; left: 60%;"></div>
+    <div class="particle" style="top: 70%; left: 20%;"></div>
+  </div>
+  <div class="countdown">{{ countdownValue }}</div>
+  <div class="winner" *ngIf="countdownValue <= 0">
+    שם הזוכה: {{ winnerName }}
+  </div>
+</div>

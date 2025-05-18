@@ -1,0 +1,77 @@
+/* עיצוב כללי של התפריט */
+.menu {
+  position: fixed; /* מקבע את התפריט למעלה */
+  top: 0;
+  left: 0;
+  width: 100%; /* מכסה את כל רוחב הדף */
+  height: 75px; /* גובה התפריט מוגדל ב-10px */
+  display: flex;
+  justify-content: flex-start; /* מיישר את הפריטים לצד שמאל */
+  background-color: #ff8a00; /* צבע כתום */
+  padding: 0; /* ללא שוליים פנימיים */
+  border-bottom: 2px solid #e67e22; /* מסגרת כתומה דקה */
+  z-index: 1000; /* מעל כל התוכן בדף */
+  align-items: center;
+  margin-bottom: 10px; /* רווח קטן בין התפריט לתוכן שמתחתיו לפני הגלילה */
+}
+
+#image {
+  position: absolute;
+  top: 0; /* מתחיל בגובה התפריט */
+  right: 40px; /* רווח קטן מצד ימין */
+  height: 100px; /* גובה התמונה יהיה כמו גובה התפריט */
+  width: 135px; /* רוחב התמונה - אפשר לשנות לפי הצורך */
+  background-image: url('../../../angular/public/image/logo.png'); /* כאן הכנס את הקישור לתמונה שלך */
+  background-size: cover; /* התמונה תתאים לגודל */
+  background-position: center; /* מיקום התמונה בתוך האלמנט */
+}
+
+
+/* עיצוב של כל פריט בתפריט */
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none; /* ללא קו תחתון */
+  color: #ffffff; /* צבע לבן לטקסט ולאייקונים */
+  font-family: 'Arial', sans-serif;
+  font-size: 10px; /* טקסט קטן יותר */
+  transition: background-color 0.3s, color 0.3s;
+  padding: 5px; /* שוליים פנימיות */
+  justify-content: center;
+  flex: 0 0 auto; /* שומר על פרופורציה קבועה */
+  width: 80px; /* רוחב קבוע לפריטים */
+  height: 100%; /* כל גובה התפריט */
+  text-align: center; /* יישור טקסט ואייקונים במרכז */
+  margin-right: 10px; /* רווח בין הפריטים */
+}
+
+/* עיצוב האייקונים */
+.material-icons {
+  font-size: 14px; /* אייקונים קטנים יותר */
+  margin-bottom: 2px; /* רווח קטן יותר בין האייקון לטקסט */
+}
+
+/* טקסט מתחת לאייקון */
+.menu-label {
+  font-size: 10px; /* טקסט קטן יותר */
+  text-align: center;
+}
+
+/* אפקט מעבר */
+.menu-item:hover {
+  background-color: #ffffff; /* רקע לבן */
+  color: #ff8a00; /* טקסט כתום */
+}
+
+/* עיצוב פריט פעיל */
+.menu-item.active {
+  background-color: #ffffff; /* רקע לבן */
+  color: #ff8a00; /* טקסט כתום */
+  font-weight: bold; /* טקסט מודגש */
+}
+
+/* מיקוד פריטים לצד שמאל */
+.menu {
+  padding-left: 10px; /* ריווח בצד שמאל של התפריט */
+}

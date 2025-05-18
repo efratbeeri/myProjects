@@ -1,0 +1,136 @@
+.example-card {
+    border: 1px solid #ff8a00; /* מסגרת כתומה דקה */
+    max-width: calc(100% / 6 - 20px); /* מתאים ל-5 כרטיסים בשורה */
+    flex: 1 1 calc(20% - 20px); /* גודל יחסי */
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    background-color: #f2f2f2; /* רקע אפור בהיר */
+    color: #333333; /* טקסט כהה */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* צל עדין */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 0; /* ללא מסגרת עגולה */
+  }
+  
+  .example-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* רווח בין הכרטיסים */
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start; /* מיישר את הכרטיסים מלמעלה */
+  }
+  
+  /* כותרת */
+  mat-card-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  mat-card-subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    color: #666666; /* טקסט אפרפר */
+  }
+  
+  /* תמונה */
+  mat-card-image {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  /* תוכן הכרטיס */
+  mat-card-content p {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    color: #555555;
+  }
+  
+  /* כפתורים */
+  mat-card-actions {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  
+  .draw-button {
+    background-color: #ff8a00; /* צבע כתום */
+    color: #ffffff; /* טקסט לבן */
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 4px; /* פינות מעט מעוגלות */
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .draw-button:hover {
+    background-color: #e67600; /* כתום כהה יותר */
+    transform: scale(1.05);
+  }
+  
+  .like-button,
+  .cart-button {
+    background-color: rgba(0, 0, 0, 0.05); /* רקע שקוף */
+    color: #ff8a00;
+    border-radius: 4px; /* פינות מעט מעוגלות */
+    padding: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .like-button:hover,
+  .cart-button:hover {
+    background-color: rgba(255, 138, 0, 0.1);
+    transform: scale(1.1);
+  }
+  
+  .winner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* אפור חצי שקוף */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 5;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .action-button {
+    background-color: #ff8a00; /* צבע כתום */
+    color: #ffffff; /* כיתוב לבן */
+    border: none; /* ללא מסגרת */
+    border-radius: 50%; /* כפתור עגול */
+    width: 40px; /* גודל הכפתור */
+    height: 40px; /* גובה הכפתור */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem; /* גודל הטקסט */
+    cursor: pointer; /* סמן מצביע */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* צל עדין */
+  }
+  
+  .action-button:hover {
+    transform: scale(1.1); /* אנימציה של הגדלה */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* צל מוגבר */
+  }
+  
+  .action-button:active {
+    transform: scale(0.95); /* הקטנה בלחיצה */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* צל קל */
+  }
+  

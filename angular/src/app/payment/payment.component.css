@@ -1,0 +1,173 @@
+.payment-container {
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .dialog-header {
+    display: flex;
+    justify-content: flex-start; /* זז לצד שמאל */
+    margin-bottom: 10px;
+  }
+  
+  .close-button mat-icon {
+    color: #ff8a00; /* צבע כתום להדגשה */
+    background: none; /* לא תהיה רקע */
+    border: none; /* לא תהיה מסגרת */
+  }
+  
+  .step-tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .step-tab {
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .step-tab.active {
+    font-weight: bold;
+    border-bottom: 2px solid #ff8a00; /* פס כתום מתחת לכותרת הפעילה */
+  }
+  
+  .step-tab.disabled {
+    pointer-events: none;
+    color: gray;
+  }
+  
+  .step-indicator {
+    background-color: #ff8a00;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .step-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
+  .credit-card-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .credit-card-logos img {
+    margin: 0 10px;
+    width: 40px;
+    height: auto;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .success-message {
+    background-color: #d4edda; /* רקע ירוק בהיר */
+    border: 1px solid #155724; /* מסגרת ירוקה כהה */
+    color: #155724; /* צבע טקסט ירוק כהה */
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: none; /* ברירת מחדל מוסתר */
+  }
+  
+  .success-message.show {
+    display: block; /* הצג את ההודעה */
+  }
+  
+  .spinner {
+    border: 4px solid #f3f3f3; /* צבע הרקע */
+    border-top: 4px solid #ff8a00; /* צבע הכתום של כפתור סיים */
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite; /* אנימציה של סיבוב */
+    margin-left: 10px;
+  }
+  
+  .mat-button {
+    background-color: #ff8a00; /* צבע הכתום */
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .mat-button:hover {
+    background-color: #e07b00; /* צבע כתום כהה */
+  }
+  @keyframes rotateCircle {
+    0% {
+      transform: rotate(0deg);
+      clip-path: polygon(50% 0%, 0% 100%, 100% 100%); /* חצי עיגול */
+    }
+    100% {
+      transform: rotate(360deg);
+      clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+  }
+  
+  /* כפתור סיים */
+  .finish-button-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .finish-button-container .spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border: 4px solid transparent;
+    border-top: 4px solid #ff8a00; /* צבע כתום */
+    border-radius: 50%;
+    animation: rotateCircle 2s linear infinite;
+    display: none; /* מוסתר בהתחלה */
+  }
+  
+  .finish-button-container button {
+    background-color: #ff8a00;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .finish-button-container.active .spinner {
+    display: block;
+  }  
+
+  .credit-card-form input {
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .credit-card-form .credit-card-number {
+    width: 250px;
+  }
+  
+  /* חלוקה אוטומטית של מספר כרטיס האשראי */
+  input[type="text"] {
+    letter-spacing: 1px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border: 2px solid #ff8a00; /* גבול כתום בעת מיקוד */
+  }

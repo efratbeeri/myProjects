@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import 'material-icons/iconfont/material-icons.css';
+nav {
+    background: #f8f9fa;
+    padding: 10px;
+  }
+  
+  nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* nav a.active {
+    font-weight: bold;
+    color: #0056b3;
+  } */
+  router-outlet {
+    display: block;
+    margin-top: 20px;
+  }
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}

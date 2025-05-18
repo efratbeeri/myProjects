@@ -1,0 +1,41 @@
+<body>
+  <div id="background"></div>
+<div class="login-container" id="back">
+ 
+     <form class="example-form" [formGroup]="frmLogin">
+      <mat-form-field class="example-full-width">
+        <mat-label>username</mat-label>
+        <input matInput formControlName="Username">
+        <!-- <mat-error *ngIf="frmLogin.get('username') && frmLogin.get('username')?.hasError('required')">שדה חובה, נא הכנס שם</mat-error> -->
+
+      </mat-form-field>
+    
+      <mat-form-field class="example-full-width">
+        <mat-label>password</mat-label>
+        <input matInput formControlName="Password" type="password">
+        <!-- <mat-error *ngIf="frmLogin.get('password')?.hasError('required')">שדה חובה, נא הכנס סיסמא</mat-error> -->
+      </mat-form-field>
+    
+      <div mat-dialog-actions align="end">
+        <!-- <button   >התחבר</button> -->
+        <div class="demo-button-container">
+          <button mat-raised-button 
+          class="demo-button" 
+          type="submit" 
+          [disabled]="!frmLogin.valid" 
+          (click)="onSubmit()">
+          <mat-icon>login</mat-icon>toLogin
+          </button>
+        </div>
+      </div>
+      <br>
+      אם אתם עדיין לא רשומים במערכת 
+      <br>
+      <a [routerLink]="['/register']">לחצו כאן להרשמה </a>
+      <br><br>
+    </form>
+    
+    
+  </div>
+  
+</body>

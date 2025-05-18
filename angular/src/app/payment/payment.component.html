@@ -1,0 +1,79 @@
+<div class="payment-container">
+    <!-- כפתור סגירה בצד שמאל למעלה -->
+    <div class="dialog-header">
+      <button mat-icon-button class="close-button" (click)="closeDialog()">
+        <span class="material-icons">close</span>
+      </button>
+    </div>
+  
+    <!-- כותרות לקטעים -->
+    <div class="step-tabs">
+      <div *ngFor="let step of steps; let i = index"
+        class="step-tab"
+        [class.active]="i === currentStep"
+        [class.disabled]="i > currentStep"
+        (click)="goToStep(i)">
+        <span>{{ step.label }}</span>
+        <div class="step-indicator" *ngIf="i === currentStep"></div>
+      </div>
+    </div>
+  
+    <!-- תצוגת תוכן בהתאם לשלב הנבחר -->
+    <div class="step-content">
+      <ng-container [ngSwitch]="currentStep">
+        <!-- <div *ngSwitchCase="0">
+          <p>פרטי עסקה</p>
+          <p>קנית בסך הכל {{num}} מוצרים</p>
+          <p>ס"ה לתשלום:{{sum}}</p>
+          <button mat-raised-button color="primary" (click)="goToNextStep()">Next</button>
+        </div>
+        <div *ngSwitchCase="1">
+          <p>פרטי לקוח</p>
+          <p>{{userid}}</p>
+          <button mat-raised-button color="primary" (click)="goToNextStep()">Next</button>
+        </div> -->
+        <div >
+          <p>פרטי תשלום</p>
+          
+          <!-- טופס פרטי אשראי -->
+          <div class="credit-card-details">
+            <mat-form-field appearance="fill" class="full-width">
+              <mat-label>מספר כרטיס אשראי</mat-label>
+              <input matInput placeholder="הכנס מספר כרטיס אשראי" [(ngModel)]="creditCardNumber" maxlength="16" />
+              <mat-icon matPrefix>credit_card</mat-icon>
+            </mat-form-field>
+            <mat-form-field appearance="fill" class="full-width">
+              <mat-label>תאריך תפוגה</mat-label>
+              <input matInput placeholder="MM/YY" [(ngModel)]="expiryDate" />
+              <mat-icon matPrefix>date_range</mat-icon>
+            </mat-form-field>
+            <mat-form-field appearance="fill" class="full-width">
+              <mat-label>קוד CVV</mat-label>
+              <input matInput placeholder="הכנס קוד CVV" [(ngModel)]="cvv" maxlength="3" type="password" />
+              <mat-icon matPrefix>lock</mat-icon>
+            </mat-form-field>
+  
+            <!-- <div class="credit-card-logos">
+              <img src="path_to_visa_logo" alt="Visa" />
+              <img src="path_to_mastercard_logo" alt="Mastercard" />
+              <img src="path_to_amex_logo" alt="Amex" />
+            </div> -->
+          </div>
+  
+          <!-- כפתור סיים -->
+           
+          <div class="finish-button-container" [class.active]="isProcessing">
+            <button mat-raised-button *ngIf="!isProcessing" color="warn" (click)="completePurchase()" [disabled]="!formValid">סיים</button>
+            <div *ngIf="isProcessing" class="spinner"></div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  
+    <!-- הודעה הצלחה -->
+    <div class="success-message" [ngClass]="{'show': purchaseComplete}">
+      הרכישה בוצעה בהצלחה
+    </div>
+  
+  </div>
+  

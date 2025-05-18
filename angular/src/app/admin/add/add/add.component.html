@@ -1,0 +1,41 @@
+
+<form class="example-form" [formGroup]="frmPresent">
+  <mat-form-field class="example-full-width">
+    <mat-label>Name</mat-label>
+    <input matInput formControlName="name">
+    <mat-error *ngIf="frmPresent.get('name')?.hasError('required')">שדה חובה, נא הכנס שם</mat-error>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Price</mat-label>
+    <input matInput formControlName="price" type="number">
+    <mat-error *ngIf="frmPresent.get('price')?.hasError('required')">שדה חובה, נא הכנס מחיר</mat-error>
+    <mat-error *ngIf="frmPresent.get('price')?.hasError('min')">המחיר חייב להיות גדול מ-10</mat-error>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>DonorsId</mat-label>
+    <input matInput formControlName="donorsId">
+    <mat-error *ngIf="frmPresent.get('donorsId')?.hasError('required')">שדה חובה, נא הכנס שם תורם</mat-error>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>kategory</mat-label>
+  
+    <input matInput formControlName="kategory">
+    <mat-error *ngIf="frmPresent.get('kategory')?.hasError('required')">שדה חובה, נא הכנס קטגוריה</mat-error>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>image</mat-label>
+    <input matInput formControlName="image">
+    <mat-error *ngIf="frmPresent.get('image')?.hasError('required')">שדה חובה, נא הכנס כתובת תמונה </mat-error>
+  </mat-form-field>
+
+  <div mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close (click)="dialogRef.close()">ביטול</button>
+    <button mat-button (click)="save()" [disabled]="frmPresent.invalid">שמור</button>
+  </div>
+</form>
+
+

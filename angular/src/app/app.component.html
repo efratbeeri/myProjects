@@ -1,0 +1,51 @@
+
+<style>
+  
+</style>
+
+<body>
+ 
+<nav class="menu">
+  <div id="image"></div> 
+  <a routerLink="home" routerLinkActive="active" class="menu-item" matTooltip="Go to Home">
+    <span class="material-icons">home</span>
+    <span class="menu-label">Home</span>
+  </a>
+  <a routerLink="cart" routerLinkActive="active" class="menu-item" matTooltip="see your purchases">
+    <span class="material-icons">shopping_cart</span>
+    <span class="menu-label">Cart</span>
+  </a>
+ 
+<ng-container *ngIf="isAdmin">
+  <a routerLink="admin-present" routerLinkActive="active" class="menu-item" matTooltip="admin the Present">
+    <span class="material-icons">inventory</span>
+    <span class="menu-label">Admin Present</span>
+  </a>
+  <a routerLink="admin-donors" routerLinkActive="active" class="menu-item" matTooltip="admin the Donors">
+    <span class="material-icons">group</span>
+    <span class="menu-label">Admin Donors</span>
+  </a>
+
+  <a routerLink="theLottery" routerLinkActive="active" class="menu-item" matTooltip="see the Lottery report">
+    <span class="material-icons">star</span>
+    <span class="menu-label">The Lottery</span>
+  </a>
+ 
+</ng-container>
+<a routerLink="register" routerLinkActive="active" class="menu-item" matTooltip="Go to register">
+  <span class="material-icons">app_registration</span>
+  <span class="menu-label">Register</span>
+</a>
+<a routerLink="first-page" routerLinkActive="active" class="menu-item" matTooltip="Go to login">
+  <span class="material-icons">login</span>
+  <span class="menu-label">Login</span>
+</a>
+<a (click)="logout()" class="menu-item" matTooltip="to logout">
+  <span class="material-icons">logout</span>
+  <span class="menu-label">Logout</span>
+</a>
+</nav>
+  <br><br><br><br>
+      <router-outlet></router-outlet>
+
+    </body>

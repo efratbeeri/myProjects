@@ -1,0 +1,70 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  padding: 16px;
+}
+
+.example-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #181717, #797979);
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ff9800;
+  border-radius: 8px;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+mat-card-content {
+  text-align: center;
+}
+
+.image-container img {
+  height: 150px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.dialog-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.dialog-details {
+  text-align: right;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  button {
+    background: #ff9800;
+    color: white;
+    font-size: 16px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: none;
+
+    &:hover {
+      background: #ffb74d;
+    }
+  }
+}
+
+.confirm-delete-dialog {
+  color: red;
+  border: 2px solid red;
+  padding: 16px;
+  background-color: #ffe5e5;
+}
