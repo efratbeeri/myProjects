@@ -1,0 +1,416 @@
+2025-01-16 12:53:15.324 +02:00 [INF] Starting up the API...
+2025-01-16 12:53:18.201 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\projectAngular&Api\api\projectApi\Program.cs:line 81
+2025-01-16 12:53:55.353 +02:00 [INF] Starting up the API...
+2025-01-16 12:54:03.787 +02:00 [INF] Starting up the API...
+2025-01-16 12:54:04.016 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\projectAngular&Api\api\projectApi\Program.cs:line 81
+2025-01-16 12:54:18.822 +02:00 [INF] Starting up the API...
+2025-01-16 12:54:18.994 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\projectAngular&Api\api\projectApi\Program.cs:line 81
+2025-01-16 12:54:41.126 +02:00 [INF] Starting up the API...
+2025-01-16 12:54:41.299 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\projectAngular&Api\api\projectApi\Program.cs:line 81
+2025-01-16 12:54:50.982 +02:00 [INF] Starting up the API...
+2025-01-16 12:54:51.158 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\projectAngular&Api\api\projectApi\Program.cs:line 81
+2025-01-16 12:54:56.798 +02:00 [INF] Starting up the API...
+2025-01-16 12:54:57.034 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\projectAngular&Api\api\projectApi\Program.cs:line 81
+2025-01-16 12:55:40.035 +02:00 [INF] Starting up the API...
+2025-01-16 12:55:40.246 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\projectAngular&Api\api\projectApi\Program.cs:line 81
+2025-01-16 12:55:44.755 +02:00 [INF] Starting up the API...
+2025-01-16 12:55:44.920 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\projectAngular&Api\api\projectApi\Program.cs:line 81
+2025-01-16 12:56:09.571 +02:00 [INF] Starting up the API...
+2025-01-16 12:56:21.994 +02:00 [INF] Getting present
+2025-01-16 12:56:26.283 +02:00 [INF] Getting present
+2025-01-16 12:56:39.559 +02:00 [INF] Getting Donor
+2025-01-16 12:57:05.530 +02:00 [INF] post Donor
+2025-01-16 12:57:06.285 +02:00 [INF] Getting Donor
+2025-01-16 12:57:08.474 +02:00 [INF] Getting present
+2025-01-16 12:57:24.639 +02:00 [INF] post present
+2025-01-16 12:57:24.903 +02:00 [INF] Getting present
+2025-01-16 12:57:31.853 +02:00 [INF] Getting present
+2025-01-16 12:57:34.399 +02:00 [INF] Getting present
+2025-01-16 12:57:39.223 +02:00 [INF] put Present
+2025-01-16 12:57:39.271 +02:00 [INF] Present with Id 1 updated successfully
+2025-01-16 12:57:39.375 +02:00 [INF] Getting present
+2025-01-16 12:57:40.455 +02:00 [INF] Getting present
+2025-01-16 12:58:33.727 +02:00 [INF] post User
+2025-01-16 12:58:42.818 +02:00 [INF] Getting User
+2025-01-16 12:58:42.847 +02:00 [INF] Login User
+2025-01-16 12:58:55.134 +02:00 [INF] Getting User
+2025-01-16 12:58:55.134 +02:00 [INF] Login User
+2025-01-16 12:59:03.078 +02:00 [INF] Getting present
+2025-01-16 12:59:04.084 +02:00 [INF] Getting present
+2025-01-16 12:59:05.183 +02:00 [INF] Getting present
+2025-01-16 12:59:07.544 +02:00 [INF] Getting User
+2025-01-16 12:59:07.576 +02:00 [INF] Login User
+2025-01-16 12:59:19.355 +02:00 [INF] post User
+2025-01-16 12:59:19.606 +02:00 [INF] Getting present
+2025-01-16 13:00:09.023 +02:00 [INF] Getting User
+2025-01-16 13:00:09.058 +02:00 [INF] Login User
+2025-01-16 13:07:31.801 +02:00 [INF] Starting up the API...
+2025-01-16 13:07:47.385 +02:00 [INF] Getting present
+2025-01-16 13:08:02.868 +02:00 [INF] Getting present
+2025-01-16 13:08:06.419 +02:00 [INF] Getting User
+2025-01-16 13:08:06.497 +02:00 [INF] Login User
+2025-01-16 13:14:20.459 +02:00 [INF] Login User
+2025-01-16 13:16:10.301 +02:00 [INF] Starting up the API...
+2025-01-16 13:16:24.266 +02:00 [INF] Login User
+2025-01-16 13:16:24.312 +02:00 [INF] eror to login
+2025-01-16 13:17:49.854 +02:00 [INF] Starting up the API...
+2025-01-16 13:18:02.501 +02:00 [INF] Login User
+2025-01-16 13:18:02.540 +02:00 [INF] eror to login
+2025-01-16 13:18:38.367 +02:00 [INF] Starting up the API...
+2025-01-16 13:18:53.535 +02:00 [INF] Login User
+2025-01-16 13:18:53.581 +02:00 [INF] eror to login
+2025-01-16 13:19:22.549 +02:00 [INF] Starting up the API...
+2025-01-16 13:19:34.785 +02:00 [INF] Login User
+2025-01-16 13:19:34.824 +02:00 [INF] eror to login
+2025-01-16 13:20:46.905 +02:00 [INF] Starting up the API...
+2025-01-16 13:20:59.728 +02:00 [INF] Login User
+2025-01-16 13:20:59.777 +02:00 [INF] eror to login
+2025-01-16 13:50:14.219 +02:00 [INF] Starting up the API...
+2025-01-16 13:50:32.325 +02:00 [INF] Login User
+2025-01-16 13:50:32.377 +02:00 [INF] eror to login
+2025-01-16 13:54:13.929 +02:00 [INF] Starting up the API...
+2025-01-16 13:54:26.299 +02:00 [INF] Login User
+2025-01-16 13:54:26.300 +02:00 [INF] userid: אפרתfinal: 8123
+2025-01-16 13:54:26.300 +02:00 [INF] in service login
+2025-01-16 13:54:26.352 +02:00 [INF] eror to login
+2025-01-16 13:55:20.556 +02:00 [INF] Starting up the API...
+2025-01-16 13:55:34.460 +02:00 [INF] Login User
+2025-01-16 13:55:34.460 +02:00 [INF] userid: אפרתfinal: 8123
+2025-01-16 13:55:34.510 +02:00 [INF] eror to login
+2025-01-16 13:56:25.749 +02:00 [INF] Starting up the API...
+2025-01-16 13:56:37.382 +02:00 [INF] Login User
+2025-01-16 13:56:37.383 +02:00 [INF] userid: אפרתfinal: 8123
+2025-01-16 13:56:37.433 +02:00 [INF] eror to login
+2025-01-16 14:01:30.954 +02:00 [INF] Starting up the API...
+2025-01-16 14:01:44.719 +02:00 [INF] Login User
+2025-01-16 14:01:44.720 +02:00 [INF] userid: אפרתfinal: 8123
+2025-01-16 14:01:44.771 +02:00 [INF] eror to login
+2025-01-16 14:02:12.582 +02:00 [INF] Starting up the API...
+2025-01-16 14:02:34.055 +02:00 [INF] Login User
+2025-01-16 14:02:34.056 +02:00 [INF] userid: אפרתfinal: 8123
+2025-01-16 14:02:34.107 +02:00 [INF] eror to login
+2025-01-16 14:04:25.346 +02:00 [INF] Starting up the API...
+2025-01-16 14:04:43.284 +02:00 [INF] Login User
+2025-01-16 14:04:43.284 +02:00 [INF] userid: אפרתfinal: 8123
+2025-01-16 14:04:43.337 +02:00 [INF] eror to login
+2025-01-16 14:05:31.730 +02:00 [INF] Starting up the API...
+2025-01-16 14:05:44.018 +02:00 [INF] Login User
+2025-01-16 14:05:44.018 +02:00 [INF] userid: שניfinal: 9999
+2025-01-16 14:05:44.069 +02:00 [INF] eror to login
+2025-01-16 14:06:23.396 +02:00 [INF] Starting up the API...
+2025-01-16 14:06:36.707 +02:00 [INF] Login User
+2025-01-16 14:06:36.707 +02:00 [INF] userid: שניfinal: 9999
+2025-01-16 14:06:36.747 +02:00 [INF] eror to login
+2025-01-16 14:07:19.456 +02:00 [INF] Starting up the API...
+2025-01-16 14:07:31.724 +02:00 [INF] Login User
+2025-01-16 14:07:31.724 +02:00 [INF] userid: שניfinal: 9999
+2025-01-16 14:07:31.778 +02:00 [INF] eror to login
+2025-01-16 14:08:01.634 +02:00 [INF] Starting up the API...
+2025-01-16 14:08:15.936 +02:00 [INF] Login User
+2025-01-16 14:08:15.936 +02:00 [INF] userid: שניfinal: 9999
+2025-01-16 14:08:15.985 +02:00 [INF] eror to login
+2025-01-16 14:09:34.889 +02:00 [INF] Starting up the API...
+2025-01-16 14:09:47.233 +02:00 [INF] Login User
+2025-01-16 14:09:47.276 +02:00 [INF] eror to login
+2025-01-16 14:15:05.725 +02:00 [INF] Starting up the API...
+2025-01-16 14:15:16.787 +02:00 [INF] Login User
+2025-01-16 14:15:16.834 +02:00 [INF] eror to login
+2025-01-16 14:18:33.762 +02:00 [INF] Starting up the API...
+2025-01-16 14:18:41.063 +02:00 [INF] Starting up the API...
+2025-01-16 14:19:16.903 +02:00 [INF] Login User
+2025-01-16 14:19:16.950 +02:00 [INF] eror to login
+2025-01-16 14:59:06.673 +02:00 [INF] Starting up the API...
+2025-01-16 14:59:19.483 +02:00 [INF] Login User
+2025-01-16 14:59:19.626 +02:00 [INF] eror to login
+2025-01-16 16:19:21.970 +02:00 [INF] Starting up the API...
+2025-01-16 16:19:35.554 +02:00 [INF] Login User
+2025-01-16 16:19:35.692 +02:00 [INF] eror to login
+2025-01-16 16:23:04.270 +02:00 [INF] Starting up the API...
+2025-01-16 16:23:27.590 +02:00 [INF] Login User
+2025-01-16 16:23:27.712 +02:00 [ERR] Error: Object reference not set to an instance of an object.
+2025-01-16 16:33:19.394 +02:00 [INF] Starting up the API...
+2025-01-16 16:33:38.256 +02:00 [INF] Login User
+2025-01-16 16:33:38.260 +02:00 [INF] LoginRequest: Username = שני, Password = 9999
+2025-01-16 16:33:38.380 +02:00 [ERR] Error: Object reference not set to an instance of an object.
+2025-01-16 17:06:15.618 +02:00 [INF] Starting up the API...
+2025-01-16 17:06:40.441 +02:00 [INF] Login User
+2025-01-16 17:06:40.445 +02:00 [INF] LoginRequest: Username = שני, Password = 9999
+2025-01-16 17:06:51.414 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-16 17:10:38.774 +02:00 [INF] Getting present
+2025-01-16 17:12:04.003 +02:00 [INF] Login User
+2025-01-16 17:12:04.004 +02:00 [INF] LoginRequest: Username = אפרת, Password = 8123
+2025-01-16 17:12:04.004 +02:00 [INF] Getting User
+2025-01-16 17:12:05.177 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-16 17:12:22.873 +02:00 [INF] Getting User
+2025-01-16 17:12:22.943 +02:00 [INF] Login User
+2025-01-16 17:12:22.944 +02:00 [INF] LoginRequest: Username = שני, Password = 9999
+2025-01-16 17:12:23.474 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-16 17:20:02.692 +02:00 [INF] Login User
+2025-01-16 17:20:02.692 +02:00 [INF] LoginRequest: Username = שני, Password = 9999
+2025-01-16 17:20:03.302 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-16 17:28:17.137 +02:00 [INF] Starting up the API...
+2025-01-16 17:28:25.127 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-16 17:28:49.855 +02:00 [INF] Getting present
+2025-01-16 17:29:01.322 +02:00 [INF] Getting User
+2025-01-16 17:29:02.469 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-16 17:29:02.522 +02:00 [INF] Getting present
+2025-01-16 17:31:20.186 +02:00 [INF] Getting present
+2025-01-16 17:32:00.534 +02:00 [INF] Getting present
+2025-01-16 17:36:12.905 +02:00 [INF] Getting present
+2025-01-16 17:36:15.263 +02:00 [INF] Getting present
+2025-01-16 17:36:32.125 +02:00 [INF] Getting present
+2025-01-16 17:37:33.029 +02:00 [INF] Getting present
+2025-01-16 17:37:49.140 +02:00 [INF] Getting present
+2025-01-16 17:37:56.426 +02:00 [INF] Getting present
+2025-01-16 17:38:00.091 +02:00 [INF] Getting present
+2025-01-16 17:38:06.166 +02:00 [INF] Getting present
+2025-01-16 17:38:10.310 +02:00 [INF] Getting present
+2025-01-16 17:38:38.271 +02:00 [INF] Getting present
+2025-01-16 17:38:43.735 +02:00 [INF] Getting present
+2025-01-16 17:38:49.105 +02:00 [INF] Getting present
+2025-01-16 17:38:52.085 +02:00 [INF] Getting present
+2025-01-16 17:39:00.235 +02:00 [INF] Getting present
+2025-01-16 17:39:02.740 +02:00 [INF] Getting present
+2025-01-16 18:04:59.578 +02:00 [INF] Getting present
+2025-01-16 18:05:11.672 +02:00 [INF] Getting User
+2025-01-16 18:05:12.347 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-16 18:05:12.408 +02:00 [INF] Getting present
+2025-01-16 18:05:34.060 +02:00 [INF] Getting present
+2025-01-16 18:05:35.225 +02:00 [INF] Getting present
+2025-01-16 18:05:44.084 +02:00 [INF] Getting present
+2025-01-16 18:05:47.717 +02:00 [INF] Getting present
+2025-01-16 18:05:53.120 +02:00 [INF] Getting present
+2025-01-16 18:05:56.123 +02:00 [INF] Getting present
+2025-01-16 18:05:59.902 +02:00 [INF] Getting present
+2025-01-16 18:06:02.084 +02:00 [INF] Getting present
+2025-01-16 18:06:05.053 +02:00 [INF] Getting present
+2025-01-16 18:06:12.074 +02:00 [INF] Getting present
+2025-01-16 18:06:14.654 +02:00 [INF] Getting present
+2025-01-16 18:06:26.101 +02:00 [INF] Getting present
+2025-01-16 18:06:31.277 +02:00 [INF] Getting present
+2025-01-16 18:06:43.136 +02:00 [INF] Getting present
+2025-01-16 18:06:55.652 +02:00 [INF] Getting present
+2025-01-16 18:09:17.055 +02:00 [INF] Getting present
+2025-01-16 18:09:24.751 +02:00 [INF] Getting present
+2025-01-16 18:10:24.119 +02:00 [INF] Getting present
+2025-01-16 18:12:47.157 +02:00 [INF] Getting present
+2025-01-16 18:14:03.163 +02:00 [INF] post Purchases
+2025-01-16 18:14:37.745 +02:00 [INF] Getting present
+2025-01-16 18:14:40.299 +02:00 [INF] Getting present
+2025-01-16 18:15:30.803 +02:00 [INF] Getting present
+2025-01-16 18:15:32.810 +02:00 [INF] Getting present
+2025-01-16 18:16:19.140 +02:00 [INF] Starting up the API...
+2025-01-16 18:16:46.606 +02:00 [INF] Getting present
+2025-01-16 18:16:51.903 +02:00 [INF] Getting present
+2025-01-16 18:17:16.580 +02:00 [INF] post present
+2025-01-16 18:17:17.348 +02:00 [INF] Getting present
+2025-01-16 18:17:21.447 +02:00 [INF] Getting present
+2025-01-16 18:17:23.794 +02:00 [INF] Getting present
+2025-01-16 18:17:28.486 +02:00 [INF] put Present
+2025-01-16 18:17:28.547 +02:00 [INF] Present with Id 2 updated successfully
+2025-01-16 18:17:28.654 +02:00 [INF] Getting present
+2025-01-16 18:17:30.156 +02:00 [INF] Getting present
+2025-01-16 18:19:18.979 +02:00 [INF] Getting present
+2025-01-16 18:20:39.478 +02:00 [INF] Getting Purchases
+2025-01-16 18:22:20.654 +02:00 [INF] post Purchases
+2025-01-16 18:26:57.099 +02:00 [INF] Getting present
+2025-01-16 18:27:00.583 +02:00 [INF] Getting present
+2025-01-16 18:27:21.811 +02:00 [INF] Getting present
+2025-01-16 18:27:37.844 +02:00 [INF] post Purchases
+2025-01-16 18:46:16.112 +02:00 [INF] Starting up the API...
+2025-01-16 18:46:56.983 +02:00 [INF] GetPurchasesList 
+2025-01-16 19:08:48.475 +02:00 [INF] Getting present
+2025-01-16 19:08:59.384 +02:00 [INF] Getting User
+2025-01-16 19:09:02.706 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-16 19:09:02.741 +02:00 [INF] Getting present
+2025-01-16 19:09:05.892 +02:00 [INF] Getting present
+2025-01-16 19:09:07.249 +02:00 [INF] post Purchases
+2025-01-16 19:09:10.724 +02:00 [INF] Getting present
+2025-01-16 19:09:20.476 +02:00 [INF] Getting present
+2025-01-16 19:09:22.295 +02:00 [INF] post Purchases
+2025-01-16 19:09:46.110 +02:00 [INF] Getting present
+2025-01-16 19:09:48.393 +02:00 [INF] Getting present
+2025-01-16 19:11:32.702 +02:00 [INF] Getting present
+2025-01-16 19:11:37.628 +02:00 [INF] Getting present
+2025-01-16 19:12:40.020 +02:00 [INF] Getting Cart
+2025-01-16 19:12:43.422 +02:00 [INF] Getting present
+2025-01-16 19:12:44.641 +02:00 [INF] post Purchases
+2025-01-16 19:13:49.889 +02:00 [INF] Getting present
+2025-01-16 19:14:05.533 +02:00 [INF] Getting present
+2025-01-16 19:14:13.416 +02:00 [INF] Getting present
+2025-01-16 19:14:15.900 +02:00 [INF] Getting present
+2025-01-16 19:14:26.168 +02:00 [INF] Getting present
+2025-01-16 19:14:38.566 +02:00 [INF] Getting present
+2025-01-16 19:14:45.220 +02:00 [INF] Getting present
+2025-01-16 19:14:47.372 +02:00 [INF] Getting Cart
+2025-01-16 19:16:38.254 +02:00 [INF] Getting Cart
+2025-01-16 19:17:20.364 +02:00 [INF] Getting Cart
+2025-01-16 19:18:15.297 +02:00 [INF] Getting Cart
+2025-01-16 19:18:21.198 +02:00 [INF] Getting Cart
+2025-01-16 19:18:23.104 +02:00 [INF] Getting Cart
+2025-01-16 19:19:09.331 +02:00 [INF] Getting Cart
+2025-01-16 19:19:16.250 +02:00 [INF] Getting Cart
+2025-01-16 19:19:18.087 +02:00 [INF] Getting Cart
+2025-01-16 19:19:25.256 +02:00 [INF] Getting User
+2025-01-16 19:19:25.491 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-16 19:19:25.521 +02:00 [INF] Getting present
+2025-01-16 19:19:26.538 +02:00 [INF] Getting Cart
+2025-01-16 19:19:27.483 +02:00 [INF] Getting present
+2025-01-16 19:19:28.701 +02:00 [INF] post Purchases
+2025-01-16 19:19:30.609 +02:00 [INF] Getting Cart
+2025-01-16 19:21:21.567 +02:00 [INF] Getting present
+2025-01-16 19:21:24.220 +02:00 [INF] Getting Cart
+2025-01-16 19:21:24.886 +02:00 [INF] Getting present
+2025-01-16 19:21:26.399 +02:00 [INF] Getting Cart
+2025-01-16 19:21:27.292 +02:00 [INF] Getting present
+2025-01-16 19:21:32.758 +02:00 [INF] Search Present
+2025-01-16 19:21:34.015 +02:00 [INF] Search Present
+2025-01-16 19:21:36.123 +02:00 [INF] Search Present
+2025-01-16 19:21:36.360 +02:00 [INF] Getting present
+2025-01-16 19:21:37.537 +02:00 [INF] Search Present
+2025-01-16 19:21:38.199 +02:00 [INF] Getting present
+2025-01-16 19:21:39.481 +02:00 [INF] Search Present
+2025-01-16 19:21:39.983 +02:00 [INF] Getting present
+2025-01-16 19:21:41.775 +02:00 [INF] Search Present
+2025-01-16 19:21:44.299 +02:00 [INF] Getting present
+2025-01-16 19:21:45.410 +02:00 [INF] Search Present
+2025-01-16 19:21:46.675 +02:00 [INF] Search Present
+2025-01-16 19:21:47.252 +02:00 [INF] Search Present
+2025-01-16 19:21:47.521 +02:00 [INF] Getting present
+2025-01-16 19:21:48.472 +02:00 [INF] Search Present
+2025-01-16 19:21:49.243 +02:00 [INF] Search Present
+2025-01-16 19:21:49.790 +02:00 [INF] Search Present
+2025-01-16 19:21:51.731 +02:00 [INF] Search Present
+2025-01-16 19:21:52.606 +02:00 [INF] Search Present
+2025-01-16 19:21:52.847 +02:00 [INF] Getting present
+2025-01-16 19:21:54.863 +02:00 [INF] Search Present
+2025-01-16 19:21:57.125 +02:00 [INF] Search Present
+2025-01-16 19:21:58.221 +02:00 [INF] Search Present
+2025-01-16 19:21:59.516 +02:00 [INF] Getting present
+2025-01-16 19:22:18.040 +02:00 [INF] Getting present
+2025-01-16 19:22:18.956 +02:00 [INF] Getting Cart
+2025-01-16 19:22:19.634 +02:00 [INF] Getting present
+2025-01-16 19:23:38.808 +02:00 [INF] Getting present
+2025-01-16 19:24:00.042 +02:00 [INF] Getting present
+2025-01-16 19:24:16.719 +02:00 [INF] Getting present
+2025-01-16 19:36:43.787 +02:00 [INF] Getting present
+2025-01-16 19:38:35.036 +02:00 [INF] Getting present
+2025-01-16 19:38:53.964 +02:00 [INF] Getting present
+2025-01-16 19:39:52.059 +02:00 [INF] Getting present
+2025-01-16 19:39:53.036 +02:00 [INF] Getting present
+2025-01-16 19:40:23.786 +02:00 [INF] post Purchases
+2025-01-16 19:40:23.811 +02:00 [INF] post Purchases
+2025-01-16 19:40:28.759 +02:00 [INF] Getting present
+2025-01-16 19:40:41.240 +02:00 [INF] post Purchases
+2025-01-16 19:40:49.900 +02:00 [INF] Getting present
+2025-01-16 21:41:26.374 +02:00 [INF] Starting up the API...
+2025-01-16 21:42:32.562 +02:00 [INF] Getting present
+2025-01-16 21:42:47.992 +02:00 [INF] post Purchases
+2025-01-16 21:42:58.211 +02:00 [INF] Getting present
+2025-01-16 21:42:59.450 +02:00 [INF] post Purchases
+2025-01-16 21:47:15.867 +02:00 [INF] Getting Donor
+2025-01-16 21:47:16.966 +02:00 [INF] Getting present
+2025-01-16 21:47:18.988 +02:00 [INF] Getting present
+2025-01-16 21:47:47.870 +02:00 [INF] post Purchases
+2025-01-16 21:54:13.187 +02:00 [INF] Starting up the API...
+2025-01-16 21:58:00.678 +02:00 [INF] Starting up the API...
+2025-01-16 22:00:30.204 +02:00 [INF] Getting Cart
+2025-01-16 22:01:04.986 +02:00 [INF] GettingByID Cart
+2025-01-16 22:01:19.039 +02:00 [INF] GettingByID Donor
+2025-01-16 22:04:12.015 +02:00 [INF] Starting up the API...
+2025-01-16 22:06:02.230 +02:00 [INF] post Purchases
+2025-01-16 22:06:15.844 +02:00 [INF] GettingByID Cart
+2025-01-16 22:07:41.965 +02:00 [INF] Starting up the API...
+2025-01-16 22:07:51.115 +02:00 [INF] GettingByID Cart
+2025-01-16 22:08:38.412 +02:00 [INF] Starting up the API...
+2025-01-16 22:08:43.787 +02:00 [INF] Getting Cart
+2025-01-16 22:09:52.187 +02:00 [INF] Getting present
+2025-01-16 22:10:01.632 +02:00 [INF] post Purchases
+2025-01-16 22:10:09.152 +02:00 [INF] Getting present
+2025-01-16 22:10:15.190 +02:00 [INF] Getting User
+2025-01-16 22:10:17.643 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-16 22:10:17.691 +02:00 [INF] Getting present
+2025-01-16 22:10:20.275 +02:00 [INF] post Purchases
+2025-01-16 22:10:24.810 +02:00 [INF] Getting present
+2025-01-16 23:49:53.251 +02:00 [INF] Starting up the API...
+2025-01-16 23:50:41.786 +02:00 [INF] Starting up the API...
+2025-01-16 23:55:22.066 +02:00 [INF] Starting up the API...
+2025-01-16 23:56:42.342 +02:00 [INF] Getting present
+2025-01-16 23:58:11.668 +02:00 [INF] Getting User
+2025-01-16 23:58:16.424 +02:00 [INF] Getting User
+2025-01-16 23:58:17.052 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-16 23:58:17.136 +02:00 [INF] Getting present
+2025-01-16 23:58:17.473 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-16 23:58:21.821 +02:00 [INF] Getting present

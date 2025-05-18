@@ -1,0 +1,58 @@
+2025-01-09 17:25:29.949 +02:00 [INF] Starting up the API...
+2025-01-09 17:28:08.642 +02:00 [INF] Starting up the API...
+2025-01-09 17:32:17.103 +02:00 [INF] Starting up the API...
+2025-01-09 17:32:41.081 +02:00 [INF] Search Present
+2025-01-09 17:33:56.943 +02:00 [INF] post present
+2025-01-09 17:33:57.216 +02:00 [ERR] Error adding Present
+System.Exception: Donor not found
+   at projectApi.DAL.PresentDal.Add(PresentDto presentDto) in F:\projectAngular&Api\api\projectApi\DAL\PresentDal.cs:line 23
+   at projectApi.BL.PresentService.projectApi.BL.IPresentService.Add(PresentDto PresentDto) in F:\projectAngular&Api\api\projectApi\BL\PresentService.cs:line 19
+   at projectApi.Controllers.PresentController.Add(PresentDto value) in F:\projectAngular&Api\api\projectApi\Controllers\PresentController.cs:line 89
+2025-01-09 17:34:30.115 +02:00 [INF] Starting up the API...
+2025-01-09 17:34:33.272 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\projectAngular&Api\api\projectApi\Program.cs:line 78
+2025-01-09 17:34:46.869 +02:00 [INF] Starting up the API...
+2025-01-09 17:34:47.044 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\projectAngular&Api\api\projectApi\Program.cs:line 78
+2025-01-09 17:34:53.291 +02:00 [INF] Starting up the API...
+2025-01-09 17:35:32.148 +02:00 [INF] post present
+2025-01-09 17:35:34.624 +02:00 [ERR] Error adding Present
+System.Exception: Donor not found
+   at projectApi.DAL.PresentDal.Add(PresentDto presentDto) in F:\projectAngular&Api\api\projectApi\DAL\PresentDal.cs:line 23
+   at projectApi.BL.PresentService.projectApi.BL.IPresentService.Add(PresentDto PresentDto) in F:\projectAngular&Api\api\projectApi\BL\PresentService.cs:line 19
+   at projectApi.Controllers.PresentController.Add(PresentDto value) in F:\projectAngular&Api\api\projectApi\Controllers\PresentController.cs:line 89
+2025-01-09 17:36:08.912 +02:00 [INF] post Donor
+2025-01-09 17:36:21.123 +02:00 [INF] post present
+2025-01-09 17:36:21.370 +02:00 [ERR] Error adding Present
+System.Exception: Donor not found
+   at projectApi.DAL.PresentDal.Add(PresentDto presentDto) in F:\projectAngular&Api\api\projectApi\DAL\PresentDal.cs:line 23
+   at projectApi.BL.PresentService.projectApi.BL.IPresentService.Add(PresentDto PresentDto) in F:\projectAngular&Api\api\projectApi\BL\PresentService.cs:line 19
+   at projectApi.Controllers.PresentController.Add(PresentDto value) in F:\projectAngular&Api\api\projectApi\Controllers\PresentController.cs:line 89
+2025-01-09 17:36:30.023 +02:00 [INF] Getting Donor
+2025-01-09 17:36:47.934 +02:00 [INF] post present
+2025-01-09 17:37:00.955 +02:00 [INF] Search Present
+2025-01-09 17:37:23.233 +02:00 [INF] Search Present
+2025-01-09 17:39:17.903 +02:00 [INF] Getting present
+2025-01-09 17:39:52.085 +02:00 [INF] post present
+2025-01-09 17:39:52.213 +02:00 [INF] Getting present
+2025-01-09 17:40:10.931 +02:00 [INF] put Present
+2025-01-09 17:40:11.002 +02:00 [INF] Present with Id 1002 updated successfully
+2025-01-09 17:40:11.112 +02:00 [INF] Getting present
+2025-01-09 17:41:11.657 +02:00 [INF] Getting present
+2025-01-09 17:41:15.300 +02:00 [INF] Getting present

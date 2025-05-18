@@ -1,0 +1,801 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "M:\\projectAngular\u0026Api1\\api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\bl\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\bl\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\bl\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\bl\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\dal\\cartdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\dal\\cartdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\controllers\\donorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\controllers\\donorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\dal\\purchasesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\dal\\purchasesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\controllers\\winnerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\controllers\\winnerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\dal\\presentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\dal\\presentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\bl\\presentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\bl\\presentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\bl\\ipresentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\bl\\ipresentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\dal\\ipresentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\dal\\ipresentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\dal\\ipurchasesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\dal\\ipurchasesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\controllers\\presentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\controllers\\presentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\dal\\authdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\dal\\authdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\controllers\\purchasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\controllers\\purchasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\dal\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\dal\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\models\\present.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\models\\present.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\migrations\\20250122091128_ttttt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\migrations\\20250122091128_ttttt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\projectapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\projectapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\models\\dto\\donordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\models\\dto\\donordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\models\\dto\\presentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\models\\dto\\presentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\models\\winners.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\models\\winners.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\dal\\winnersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\dal\\winnersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\bl\\ipurchasesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\bl\\ipurchasesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\models\\dto\\winnersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\models\\dto\\winnersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\bl\\iwinnersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\bl\\iwinnersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\bl\\winnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\bl\\winnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\dal\\iwinnersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\dal\\iwinnersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\dal\\donordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\dal\\donordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\dal\\iauthdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\dal\\iauthdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\bl\\purchasesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\bl\\purchasesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250116105451_WithloginGoodBH1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250116105406_WithloginGoodBH.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\bl\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\bl\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\dal\\idonordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\dal\\idonordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\bl\\idonorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\bl\\idonorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112132511_inSeminar8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\dal\\iusedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\dal\\iusedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112113525_inSeminar4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112113357_inSeminar3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112112745_inSeminar2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112112650_inSeminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\projectApi\\projectApi\\Migrations\\20250105165355_try.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\projectApi\\projectApi\\Migrations\\20250105163310_first-two.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|m:\\projectangular\u0026api1\\api\\projectapi\\projectapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0B80D2F6-5183-4425-AEFC-6979557FD3D8}|projectApi\\projectApi.csproj|solutionrelative:projectapi\\projectapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\ICartService.cs",
+              "RelativeDocumentMoniker": "projectApi\\BL\\ICartService.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\ICartService.cs",
+              "RelativeToolTip": "projectApi\\BL\\ICartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:30:24.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\CartService.cs",
+              "RelativeDocumentMoniker": "projectApi\\BL\\CartService.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\CartService.cs",
+              "RelativeToolTip": "projectApi\\BL\\CartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:22:56.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PurchasesDal.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\PurchasesDal.cs",
+              "RelativeDocumentMoniker": "projectApi\\DAL\\PurchasesDal.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\PurchasesDal.cs",
+              "RelativeToolTip": "projectApi\\DAL\\PurchasesDal.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T19:30:22.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "projectApi\\Models\\Cart.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\Cart.cs",
+              "RelativeToolTip": "projectApi\\Models\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T19:27:37.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PresentDal.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\PresentDal.cs",
+              "RelativeDocumentMoniker": "projectApi\\DAL\\PresentDal.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\PresentDal.cs",
+              "RelativeToolTip": "projectApi\\DAL\\PresentDal.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAswOoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:29:37.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "projectApi\\Controllers\\CartController.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Controllers\\CartController.cs",
+              "RelativeToolTip": "projectApi\\Controllers\\CartController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAtwC0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T14:49:25.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DonorController.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Controllers\\DonorController.cs",
+              "RelativeDocumentMoniker": "projectApi\\Controllers\\DonorController.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Controllers\\DonorController.cs",
+              "RelativeToolTip": "projectApi\\Controllers\\DonorController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T16:05:37.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPresentDal.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\IPresentDal.cs",
+              "RelativeDocumentMoniker": "projectApi\\DAL\\IPresentDal.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\IPresentDal.cs",
+              "RelativeToolTip": "projectApi\\DAL\\IPresentDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:01:36.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPurchasesDal.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\IPurchasesDal.cs",
+              "RelativeDocumentMoniker": "projectApi\\DAL\\IPurchasesDal.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\IPurchasesDal.cs",
+              "RelativeToolTip": "projectApi\\DAL\\IPurchasesDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:30:05.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IPresentService.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\IPresentService.cs",
+              "RelativeDocumentMoniker": "projectApi\\BL\\IPresentService.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\IPresentService.cs",
+              "RelativeToolTip": "projectApi\\BL\\IPresentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:22:08.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PresentService.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\PresentService.cs",
+              "RelativeDocumentMoniker": "projectApi\\BL\\PresentService.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\PresentService.cs",
+              "RelativeToolTip": "projectApi\\BL\\PresentService.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAmwEUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:22:33.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Program.cs",
+              "RelativeDocumentMoniker": "projectApi\\Program.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Program.cs",
+              "RelativeToolTip": "projectApi\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T16:21:44.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartDal.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\CartDal.cs",
+              "RelativeDocumentMoniker": "projectApi\\DAL\\CartDal.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\CartDal.cs",
+              "RelativeToolTip": "projectApi\\DAL\\CartDal.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:30:32.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "projectApi\\Controllers\\AuthController.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "projectApi\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAjwC4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T17:45:24.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WinnersController.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Controllers\\WinnersController.cs",
+              "RelativeDocumentMoniker": "projectApi\\Controllers\\WinnersController.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Controllers\\WinnersController.cs",
+              "RelativeToolTip": "projectApi\\Controllers\\WinnersController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T22:38:11.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PresentController.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Controllers\\PresentController.cs",
+              "RelativeDocumentMoniker": "projectApi\\Controllers\\PresentController.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Controllers\\PresentController.cs",
+              "RelativeToolTip": "projectApi\\Controllers\\PresentController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwFoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:28:05.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthDal.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\AuthDal.cs",
+              "RelativeDocumentMoniker": "projectApi\\DAL\\AuthDal.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\AuthDal.cs",
+              "RelativeToolTip": "projectApi\\DAL\\AuthDal.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAiwEkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T22:08:09.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Present.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\Present.cs",
+              "RelativeDocumentMoniker": "projectApi\\Models\\Present.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\Present.cs",
+              "RelativeToolTip": "projectApi\\Models\\Present.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T13:18:01.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PurchasesController.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Controllers\\PurchasesController.cs",
+              "RelativeDocumentMoniker": "projectApi\\Controllers\\PurchasesController.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Controllers\\PurchasesController.cs",
+              "RelativeToolTip": "projectApi\\Controllers\\PurchasesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:28:46.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FileHandler.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\FileHandler.cs",
+              "RelativeDocumentMoniker": "projectApi\\DAL\\FileHandler.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\FileHandler.cs",
+              "RelativeToolTip": "projectApi\\DAL\\FileHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T22:27:24.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\DTO\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "projectApi\\Models\\DTO\\LoginRequestDto.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\DTO\\LoginRequestDto.cs",
+              "RelativeToolTip": "projectApi\\Models\\DTO\\LoginRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:03:28.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DonorDto.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\DTO\\DonorDto.cs",
+              "RelativeDocumentMoniker": "projectApi\\Models\\DTO\\DonorDto.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\DTO\\DonorDto.cs",
+              "RelativeToolTip": "projectApi\\Models\\DTO\\DonorDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:31:15.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Winners.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\Winners.cs",
+              "RelativeDocumentMoniker": "projectApi\\Models\\Winners.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\Winners.cs",
+              "RelativeToolTip": "projectApi\\Models\\Winners.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:57:43.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250122091128_ttttt.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Migrations\\20250122091128_ttttt.cs",
+              "RelativeDocumentMoniker": "projectApi\\Migrations\\20250122091128_ttttt.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Migrations\\20250122091128_ttttt.cs",
+              "RelativeToolTip": "projectApi\\Migrations\\20250122091128_ttttt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T09:11:29.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "projectApi.http",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\projectApi.http",
+              "RelativeDocumentMoniker": "projectApi\\projectApi.http",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\projectApi.http",
+              "RelativeToolTip": "projectApi\\projectApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-06T22:50:54.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "WinnersDal.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\WinnersDal.cs",
+              "RelativeDocumentMoniker": "projectApi\\DAL\\WinnersDal.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\WinnersDal.cs",
+              "RelativeToolTip": "projectApi\\DAL\\WinnersDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:59:54.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PresentDto.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\DTO\\PresentDto.cs",
+              "RelativeDocumentMoniker": "projectApi\\Models\\DTO\\PresentDto.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\DTO\\PresentDto.cs",
+              "RelativeToolTip": "projectApi\\Models\\DTO\\PresentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T13:18:28.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WinnerService.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\WinnerService.cs",
+              "RelativeDocumentMoniker": "projectApi\\BL\\WinnerService.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\WinnerService.cs",
+              "RelativeToolTip": "projectApi\\BL\\WinnerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T13:03:52.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IWinnersDal.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\IWinnersDal.cs",
+              "RelativeDocumentMoniker": "projectApi\\DAL\\IWinnersDal.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\IWinnersDal.cs",
+              "RelativeToolTip": "projectApi\\DAL\\IWinnersDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T13:03:35.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WinnersDto.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\DTO\\WinnersDto.cs",
+              "RelativeDocumentMoniker": "projectApi\\Models\\DTO\\WinnersDto.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\DTO\\WinnersDto.cs",
+              "RelativeToolTip": "projectApi\\Models\\DTO\\WinnersDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T13:06:09.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IPurchasesService.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\IPurchasesService.cs",
+              "RelativeDocumentMoniker": "projectApi\\BL\\IPurchasesService.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\IPurchasesService.cs",
+              "RelativeToolTip": "projectApi\\BL\\IPurchasesService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:26:45.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IWinnersService.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\IWinnersService.cs",
+              "RelativeDocumentMoniker": "projectApi\\BL\\IWinnersService.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\IWinnersService.cs",
+              "RelativeToolTip": "projectApi\\BL\\IWinnersService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T12:08:25.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PurchasesService.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\PurchasesService.cs",
+              "RelativeDocumentMoniker": "projectApi\\BL\\PurchasesService.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\PurchasesService.cs",
+              "RelativeToolTip": "projectApi\\BL\\PurchasesService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:26:36.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IAuthDal.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\IAuthDal.cs",
+              "RelativeDocumentMoniker": "projectApi\\DAL\\IAuthDal.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\IAuthDal.cs",
+              "RelativeToolTip": "projectApi\\DAL\\IAuthDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:58:32.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DonorDal.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\DonorDal.cs",
+              "RelativeDocumentMoniker": "projectApi\\DAL\\DonorDal.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\DonorDal.cs",
+              "RelativeToolTip": "projectApi\\DAL\\DonorDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:29:13.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\appsettings.json",
+              "RelativeDocumentMoniker": "projectApi\\appsettings.json",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\appsettings.json",
+              "RelativeToolTip": "projectApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-07T18:22:04.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250116105406_WithloginGoodBH.cs",
+              "DocumentMoniker": "F:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250116105406_WithloginGoodBH.cs",
+              "ToolTip": "F:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250116105406_WithloginGoodBH.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:54:07.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250116105451_WithloginGoodBH1.cs",
+              "DocumentMoniker": "F:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250116105451_WithloginGoodBH1.cs",
+              "ToolTip": "F:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250116105451_WithloginGoodBH1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:54:51.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DonorService.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\DonorService.cs",
+              "RelativeDocumentMoniker": "projectApi\\BL\\DonorService.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\DonorService.cs",
+              "RelativeToolTip": "projectApi\\BL\\DonorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:24:39.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "projectApi\\Models\\DTO\\UserDto.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\Models\\DTO\\UserDto.cs",
+              "RelativeToolTip": "projectApi\\Models\\DTO\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:32:09.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IDonorService.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\IDonorService.cs",
+              "RelativeDocumentMoniker": "projectApi\\BL\\IDonorService.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\BL\\IDonorService.cs",
+              "RelativeToolTip": "projectApi\\BL\\IDonorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:25:02.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IDonorDal.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\IDonorDal.cs",
+              "RelativeDocumentMoniker": "projectApi\\DAL\\IDonorDal.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\IDonorDal.cs",
+              "RelativeToolTip": "projectApi\\DAL\\IDonorDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:29:24.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20250112132511_inSeminar8.cs",
+              "DocumentMoniker": "E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112132511_inSeminar8.cs",
+              "ToolTip": "E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112132511_inSeminar8.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:25:11.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IUseDal.cs",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\IUseDal.cs",
+              "RelativeDocumentMoniker": "projectApi\\DAL\\IUseDal.cs",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\DAL\\IUseDal.cs",
+              "RelativeToolTip": "projectApi\\DAL\\IUseDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:29:45.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20250112113525_inSeminar4.cs",
+              "DocumentMoniker": "E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112113525_inSeminar4.cs",
+              "ToolTip": "E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112113525_inSeminar4.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:35:25.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20250112113357_inSeminar3.cs",
+              "DocumentMoniker": "E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112113357_inSeminar3.cs",
+              "ToolTip": "E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112113357_inSeminar3.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:33:58.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20250112112745_inSeminar2.cs",
+              "DocumentMoniker": "E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112112745_inSeminar2.cs",
+              "ToolTip": "E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112112745_inSeminar2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:27:46.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20250112112650_inSeminar.cs",
+              "DocumentMoniker": "E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112112650_inSeminar.cs",
+              "ToolTip": "E:\\projectAngular\u0026Api\\api\\projectApi\\Migrations\\20250112112650_inSeminar.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:26:50.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250105165355_try.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\projectApi\\projectApi\\Migrations\\20250105165355_try.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\projectApi\\projectApi\\Migrations\\20250105165355_try.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T16:53:56.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20250105163310_first-two.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\projectApi\\projectApi\\Migrations\\20250105163310_first-two.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\projectApi\\projectApi\\Migrations\\20250105163310_first-two.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T16:33:11.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "projectApi.csproj",
+              "DocumentMoniker": "M:\\projectAngular\u0026Api1\\api\\projectApi\\projectApi.csproj",
+              "RelativeDocumentMoniker": "projectApi\\projectApi.csproj",
+              "ToolTip": "M:\\projectAngular\u0026Api1\\api\\projectApi\\projectApi.csproj",
+              "RelativeToolTip": "projectApi\\projectApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-05T15:21:41.282Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

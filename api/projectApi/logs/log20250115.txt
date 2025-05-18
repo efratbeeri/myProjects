@@ -1,0 +1,165 @@
+2025-01-15 09:48:39.916 +02:00 [INF] Starting up the API...
+2025-01-15 09:48:40.561 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in E:\projectAngular&Api\api\projectApi\Program.cs:line 80
+2025-01-15 09:49:00.348 +02:00 [INF] Starting up the API...
+2025-01-15 09:49:00.630 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in E:\projectAngular&Api\api\projectApi\Program.cs:line 80
+2025-01-15 09:50:06.545 +02:00 [INF] Starting up the API...
+2025-01-15 09:50:06.830 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in E:\projectAngular&Api\api\projectApi\Program.cs:line 80
+2025-01-15 09:50:41.232 +02:00 [INF] Starting up the API...
+2025-01-15 09:50:41.507 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in E:\projectAngular&Api\api\projectApi\Program.cs:line 80
+2025-01-15 09:50:55.004 +02:00 [INF] Starting up the API...
+2025-01-15 09:51:27.165 +02:00 [INF] Getting present
+2025-01-15 09:51:32.958 +02:00 [INF] Getting present
+2025-01-15 09:51:33.873 +02:00 [INF] Getting Donor
+2025-01-15 09:52:33.338 +02:00 [INF] Getting present
+2025-01-15 09:53:06.041 +02:00 [INF] Getting Donor
+2025-01-15 09:53:26.665 +02:00 [INF] post Donor
+2025-01-15 09:53:26.966 +02:00 [INF] Getting Donor
+2025-01-15 09:53:30.508 +02:00 [INF] Getting present
+2025-01-15 09:54:03.175 +02:00 [INF] post present
+2025-01-15 09:54:03.356 +02:00 [INF] Getting present
+2025-01-15 09:54:04.997 +02:00 [INF] Getting present
+2025-01-15 09:54:08.089 +02:00 [INF] Getting present
+2025-01-15 09:54:13.012 +02:00 [INF] put Present
+2025-01-15 09:54:13.037 +02:00 [INF] Present with Id 1 updated successfully
+2025-01-15 09:54:13.125 +02:00 [INF] Getting present
+2025-01-15 09:54:14.065 +02:00 [INF] Getting present
+2025-01-15 09:54:17.519 +02:00 [INF] Getting present
+2025-01-15 09:54:19.728 +02:00 [INF] Search Present
+2025-01-15 09:54:20.835 +02:00 [INF] Getting present
+2025-01-15 09:54:21.747 +02:00 [INF] Search Present
+2025-01-15 09:54:21.811 +02:00 [INF] Search Present
+2025-01-15 09:54:23.908 +02:00 [INF] Search Present
+2025-01-15 09:54:24.757 +02:00 [INF] Search Present
+2025-01-15 09:54:25.459 +02:00 [INF] Search Present
+2025-01-15 09:54:25.698 +02:00 [INF] Search Present
+2025-01-15 09:54:25.955 +02:00 [INF] Search Present
+2025-01-15 09:54:26.171 +02:00 [INF] Getting present
+2025-01-15 09:54:35.812 +02:00 [INF] Getting Donor
+2025-01-15 09:54:38.072 +02:00 [INF] Getting Donor
+2025-01-15 09:54:41.845 +02:00 [INF] Getting present
+2025-01-15 10:02:04.939 +02:00 [INF] post User
+2025-01-15 10:02:05.292 +02:00 [INF] Getting present
+2025-01-15 10:02:11.878 +02:00 [INF] Getting present
+2025-01-15 10:02:12.471 +02:00 [INF] Getting present
+2025-01-15 10:02:14.165 +02:00 [INF] Getting present
+2025-01-15 10:02:38.957 +02:00 [INF] Getting present
+2025-01-15 10:04:01.380 +02:00 [INF] post User
+2025-01-15 10:04:38.672 +02:00 [INF] post Cart
+2025-01-15 10:06:32.201 +02:00 [INF] Getting present
+2025-01-15 10:06:32.777 +02:00 [INF] Getting present
+2025-01-15 10:06:51.444 +02:00 [INF] Getting present
+2025-01-15 10:06:59.630 +02:00 [INF] Search Present
+2025-01-15 10:07:00.573 +02:00 [INF] Getting present
+2025-01-15 10:07:04.926 +02:00 [INF] Search Present
+2025-01-15 10:07:05.958 +02:00 [INF] Search Present
+2025-01-15 10:07:06.661 +02:00 [INF] Search Present
+2025-01-15 10:07:07.677 +02:00 [INF] Search Present
+2025-01-15 10:07:07.893 +02:00 [INF] Search Present
+2025-01-15 10:07:08.189 +02:00 [INF] Getting present
+2025-01-15 10:07:11.696 +02:00 [INF] Getting Donor
+2025-01-15 10:07:23.643 +02:00 [INF] Getting present
+2025-01-15 10:07:38.237 +02:00 [INF] Getting present
+2025-01-15 10:07:39.660 +02:00 [INF] Getting Donor
+2025-01-15 10:08:08.640 +02:00 [INF] Getting present
+2025-01-15 10:08:29.946 +02:00 [INF] Getting Donor
+2025-01-15 10:08:37.387 +02:00 [INF] Getting present
+2025-01-15 10:10:12.396 +02:00 [INF] Search Present
+2025-01-15 10:10:13.628 +02:00 [INF] Search Present
+2025-01-15 10:10:13.923 +02:00 [INF] Search Present
+2025-01-15 10:10:15.067 +02:00 [INF] Search Present
+2025-01-15 10:10:15.298 +02:00 [INF] Search Present
+2025-01-15 10:10:15.754 +02:00 [INF] Getting present
+2025-01-15 10:31:07.584 +02:00 [INF] Getting Donor
+2025-01-15 10:31:09.142 +02:00 [INF] Getting present
+2025-01-15 10:33:22.173 +02:00 [INF] Getting present
+2025-01-15 10:33:24.026 +02:00 [INF] Getting present
+2025-01-15 10:33:24.551 +02:00 [INF] Getting present
+2025-01-15 10:33:44.587 +02:00 [INF] Getting present
+2025-01-15 10:34:15.688 +02:00 [INF] Getting present
+2025-01-15 10:35:32.759 +02:00 [INF] post Purchases
+2025-01-15 15:49:09.274 +02:00 [INF] Starting up the API...
+2025-01-15 15:51:08.885 +02:00 [INF] Getting present
+2025-01-15 15:51:12.087 +02:00 [INF] Getting present
+2025-01-15 15:51:14.786 +02:00 [INF] Getting present
+2025-01-15 15:51:15.124 +02:00 [INF] Getting present
+2025-01-15 15:51:16.445 +02:00 [INF] Getting present
+2025-01-15 15:51:17.952 +02:00 [INF] Getting present
+2025-01-15 15:58:56.421 +02:00 [INF] Getting present
+2025-01-15 15:59:03.462 +02:00 [INF] Getting present
+2025-01-15 16:00:31.813 +02:00 [INF] Getting present
+2025-01-15 16:01:22.109 +02:00 [INF] Getting present
+2025-01-15 16:13:42.610 +02:00 [INF] Getting present
+2025-01-15 16:13:44.375 +02:00 [INF] Getting present
+2025-01-15 16:15:58.416 +02:00 [INF] Getting present
+2025-01-15 16:16:04.471 +02:00 [INF] Getting present
+2025-01-15 16:16:07.374 +02:00 [INF] Getting present
+2025-01-15 16:16:13.912 +02:00 [INF] Getting present
+2025-01-15 16:18:12.189 +02:00 [INF] Getting present
+2025-01-15 16:18:19.501 +02:00 [INF] put Present
+2025-01-15 16:18:20.370 +02:00 [INF] Present with Id 6 updated successfully
+2025-01-15 16:18:20.514 +02:00 [INF] Getting present
+2025-01-15 16:18:21.778 +02:00 [INF] Getting present
+2025-01-15 16:19:37.242 +02:00 [INF] Getting present
+2025-01-15 16:19:39.837 +02:00 [INF] Getting present
+2025-01-15 16:19:52.097 +02:00 [INF] Getting present
+2025-01-15 16:19:55.299 +02:00 [INF] Search Present
+2025-01-15 16:19:57.039 +02:00 [INF] Getting present
+2025-01-15 16:20:04.421 +02:00 [INF] Getting Donor
+2025-01-15 16:20:14.605 +02:00 [INF] Getting present
+2025-01-15 16:22:05.614 +02:00 [INF] Getting present
+2025-01-15 16:36:52.557 +02:00 [INF] Getting present
+2025-01-15 16:36:54.048 +02:00 [INF] Getting present
+2025-01-15 16:52:56.950 +02:00 [INF] Getting Donor
+2025-01-15 16:52:57.980 +02:00 [INF] Getting present
+2025-01-15 16:52:59.051 +02:00 [INF] Getting present
+2025-01-15 16:53:00.250 +02:00 [INF] Getting present
+2025-01-15 16:53:01.763 +02:00 [INF] Getting present
+2025-01-15 16:54:33.589 +02:00 [INF] Getting present
+2025-01-15 16:56:42.374 +02:00 [INF] Getting present
+2025-01-15 16:56:55.037 +02:00 [INF] Getting present
+2025-01-15 19:30:37.080 +02:00 [INF] Starting up the API...
+2025-01-15 19:32:07.977 +02:00 [INF] Getting present
+2025-01-15 19:32:09.967 +02:00 [INF] Getting present
+2025-01-15 19:32:14.795 +02:00 [INF] Getting present
+2025-01-15 19:32:15.152 +02:00 [INF] Getting present
+2025-01-15 19:33:48.787 +02:00 [INF] Getting User
+2025-01-15 19:36:51.213 +02:00 [INF] Starting up the API...
+2025-01-15 19:43:33.629 +02:00 [INF] Starting up the API...
+2025-01-15 19:55:43.889 +02:00 [INF] Starting up the API...
+2025-01-15 20:01:50.329 +02:00 [INF] Starting up the API...

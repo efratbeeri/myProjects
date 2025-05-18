@@ -1,0 +1,44 @@
+2025-01-29 13:12:34.111 +02:00 [INF] Starting up the API...
+2025-01-29 13:14:18.454 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-29 13:14:18.454 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-29 13:14:18.454 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-29 13:14:18.455 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-29 13:14:18.557 +02:00 [INF] GetDrawnPresents 
+2025-01-29 13:14:18.557 +02:00 [INF] Getting present
+2025-01-29 13:14:18.664 +02:00 [INF] User Login And Created Him Currently Cart
+2025-01-29 13:14:42.099 +02:00 [INF] GettingByID Cart
+2025-01-29 13:14:42.630 +02:00 [INF] Getting present
+2025-01-29 13:14:42.645 +02:00 [INF] GetDrawnPresents 
+2025-01-29 13:14:58.130 +02:00 [INF] GettingByID Cart
+2025-01-29 13:14:58.159 +02:00 [INF] post Purchases
+2025-01-29 13:15:00.300 +02:00 [INF] GettingByID Cart
+2025-01-29 13:15:00.326 +02:00 [INF] put Purchases
+2025-01-29 13:15:00.363 +02:00 [INF] Purchases with Id 65 updated successfully
+2025-01-29 13:15:02.780 +02:00 [INF] GettingByID Cart
+2025-01-29 13:15:02.823 +02:00 [INF] GettingByID Present
+2025-01-29 13:15:09.793 +02:00 [INF] put Cart
+2025-01-29 13:15:09.821 +02:00 [INF] Cart with Id 62 updated successfully
+2025-01-29 13:15:17.833 +02:00 [INF] Getting present
+2025-01-29 13:15:34.061 +02:00 [INF] Search Present
+2025-01-29 13:15:34.220 +02:00 [INF] Search Present
+2025-01-29 13:15:35.251 +02:00 [INF] Search Present
+2025-01-29 13:15:35.426 +02:00 [INF] Getting present
+2025-01-29 13:15:36.932 +02:00 [INF] Search Present
+2025-01-29 13:15:38.316 +02:00 [INF] Search Present
+2025-01-29 13:15:39.467 +02:00 [INF] Search Present
+2025-01-29 13:15:39.635 +02:00 [INF] Getting present
+2025-01-29 13:15:41.951 +02:00 [INF] Getting Donor
+2025-01-29 13:15:52.107 +02:00 [INF] GettingByID Cart
+2025-01-29 13:15:52.130 +02:00 [INF] GettingByID Present
+2025-01-29 13:15:52.466 +02:00 [INF] GetDrawnPresents 
+2025-01-29 13:15:52.467 +02:00 [INF] Getting present
+2025-01-29 13:15:53.906 +02:00 [INF] GettingByID Cart
+2025-01-29 13:15:53.930 +02:00 [INF] GettingByID Present
+2025-01-29 13:15:56.085 +02:00 [INF] Getting present
+2025-01-29 13:15:56.085 +02:00 [INF] GetDrawnPresents 
+2025-01-29 13:17:23.862 +02:00 [INF] draw
+2025-01-29 13:17:24.027 +02:00 [INF] GettingByID User
+2025-01-29 13:17:24.027 +02:00 [INF] generateDochHachnasot
+2025-01-29 13:17:24.033 +02:00 [INF] add Winners
+2025-01-29 13:18:09.391 +02:00 [INF] Getting present
+2025-01-29 13:18:09.392 +02:00 [INF] GetDrawnPresents 

@@ -1,0 +1,418 @@
+2025-01-14 00:07:55.467 +02:00 [INF] Starting up the API...
+2025-01-14 00:08:01.091 +02:00 [INF] Getting present
+2025-01-14 00:08:02.585 +02:00 [INF] Getting present
+2025-01-14 00:08:03.772 +02:00 [INF] Getting present
+2025-01-14 00:08:04.859 +02:00 [INF] Getting present
+2025-01-14 00:08:07.145 +02:00 [INF] Getting Donor
+2025-01-14 00:08:15.344 +02:00 [INF] Getting User
+2025-01-14 00:08:38.061 +02:00 [INF] post User
+2025-01-14 00:08:39.183 +02:00 [ERR] Error adding User
+System.Exception: Error saving to database
+ ---> Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'myProject.dbo.User', column 'Password'. Truncated value: '$2a$11$x'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d25eb07b-ddfa-47f1-acf0-81231fb79760
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at projectApi.DAL.UserDal.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\DAL\UserDal.cs:line 30
+   --- End of inner exception stack trace ---
+   at projectApi.DAL.UserDal.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\DAL\UserDal.cs:line 35
+   at projectApi.BL.UserService.projectApi.BL.IUserService.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\BL\UserService.cs:line 19
+   at projectApi.Controllers.UserController.Add(UserDto value) in F:\projectAngular&Api\api\projectApi\Controllers\UserController.cs:line 61
+2025-01-14 00:08:53.187 +02:00 [INF] post User
+2025-01-14 00:08:53.738 +02:00 [ERR] Error adding User
+System.Exception: Error saving to database
+ ---> Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'myProject.dbo.User', column 'Password'. Truncated value: '$2a$11$R'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d25eb07b-ddfa-47f1-acf0-81231fb79760
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at projectApi.DAL.UserDal.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\DAL\UserDal.cs:line 30
+   --- End of inner exception stack trace ---
+   at projectApi.DAL.UserDal.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\DAL\UserDal.cs:line 35
+   at projectApi.BL.UserService.projectApi.BL.IUserService.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\BL\UserService.cs:line 19
+   at projectApi.Controllers.UserController.Add(UserDto value) in F:\projectAngular&Api\api\projectApi\Controllers\UserController.cs:line 61
+2025-01-14 00:13:05.231 +02:00 [INF] Starting up the API...
+2025-01-14 00:13:08.172 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\projectAngular&Api\api\projectApi\Program.cs:line 80
+2025-01-14 00:13:16.635 +02:00 [INF] Starting up the API...
+2025-01-14 00:13:16.867 +02:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at System.Diagnostics.DiagnosticSource.Write[T](String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in F:\projectAngular&Api\api\projectApi\Program.cs:line 80
+2025-01-14 00:13:22.973 +02:00 [INF] Starting up the API...
+2025-01-14 00:14:23.479 +02:00 [INF] post User
+2025-01-14 00:14:26.216 +02:00 [ERR] Error adding User
+System.Exception: Error saving to database
+ ---> Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'myProject.dbo.User', column 'Password'. Truncated value: '$2a$11$n'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:8f1e0c87-548b-4db3-84b9-6c01361b1862
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at projectApi.DAL.UserDal.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\DAL\UserDal.cs:line 30
+   --- End of inner exception stack trace ---
+   at projectApi.DAL.UserDal.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\DAL\UserDal.cs:line 35
+   at projectApi.BL.UserService.projectApi.BL.IUserService.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\BL\UserService.cs:line 19
+   at projectApi.Controllers.UserController.Add(UserDto value) in F:\projectAngular&Api\api\projectApi\Controllers\UserController.cs:line 61
+2025-01-14 00:15:57.331 +02:00 [INF] Starting up the API...
+2025-01-14 00:16:20.899 +02:00 [INF] post User
+2025-01-14 00:16:23.391 +02:00 [ERR] Error adding User
+System.Exception: Error saving to database
+ ---> Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'myProject.dbo.User', column 'Password'. Truncated value: '$2a$11$x'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:2155a605-22d7-4a30-ad06-48a0142ce9f7
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at projectApi.DAL.UserDal.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\DAL\UserDal.cs:line 30
+   --- End of inner exception stack trace ---
+   at projectApi.DAL.UserDal.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\DAL\UserDal.cs:line 35
+   at projectApi.BL.UserService.projectApi.BL.IUserService.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\BL\UserService.cs:line 19
+   at projectApi.Controllers.UserController.Add(UserDto value) in F:\projectAngular&Api\api\projectApi\Controllers\UserController.cs:line 61
+2025-01-14 00:16:49.514 +02:00 [INF] post User
+2025-01-14 00:16:50.293 +02:00 [ERR] Error adding User
+System.Exception: Error saving to database
+ ---> Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'myProject.dbo.User', column 'Password'. Truncated value: '$2a$11$v'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:2155a605-22d7-4a30-ad06-48a0142ce9f7
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at projectApi.DAL.UserDal.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\DAL\UserDal.cs:line 30
+   --- End of inner exception stack trace ---
+   at projectApi.DAL.UserDal.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\DAL\UserDal.cs:line 35
+   at projectApi.BL.UserService.projectApi.BL.IUserService.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\BL\UserService.cs:line 19
+   at projectApi.Controllers.UserController.Add(UserDto value) in F:\projectAngular&Api\api\projectApi\Controllers\UserController.cs:line 61
+2025-01-14 00:17:00.742 +02:00 [INF] post User
+2025-01-14 00:17:01.231 +02:00 [ERR] Error adding User
+System.Exception: Error saving to database
+ ---> Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'myProject.dbo.User', column 'Password'. Truncated value: '$2a$11$y'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:2155a605-22d7-4a30-ad06-48a0142ce9f7
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at projectApi.DAL.UserDal.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\DAL\UserDal.cs:line 30
+   --- End of inner exception stack trace ---
+   at projectApi.DAL.UserDal.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\DAL\UserDal.cs:line 35
+   at projectApi.BL.UserService.projectApi.BL.IUserService.Add(UserDto UserDto) in F:\projectAngular&Api\api\projectApi\BL\UserService.cs:line 19
+   at projectApi.Controllers.UserController.Add(UserDto value) in F:\projectAngular&Api\api\projectApi\Controllers\UserController.cs:line 61
+2025-01-14 00:18:12.349 +02:00 [INF] Starting up the API...
+2025-01-14 00:18:27.468 +02:00 [INF] post User
+2025-01-14 00:18:31.609 +02:00 [INF] Getting present
+2025-01-14 00:19:13.477 +02:00 [INF] Getting User
+2025-01-14 00:19:24.727 +02:00 [INF] Getting User
+2025-01-14 00:20:03.011 +02:00 [INF] Getting User
+2025-01-14 00:21:08.206 +02:00 [INF] post User
+2025-01-14 00:21:34.537 +02:00 [INF] Getting Donor
+2025-01-14 00:21:35.938 +02:00 [INF] Getting present
+2025-01-14 00:22:46.434 +02:00 [INF] Getting present
+2025-01-14 00:22:55.297 +02:00 [INF] Getting present
+2025-01-14 00:24:12.347 +02:00 [INF] Getting present
+2025-01-14 00:24:13.239 +02:00 [INF] Getting present
+2025-01-14 00:24:19.193 +02:00 [INF] Getting present
+2025-01-14 00:24:27.275 +02:00 [INF] Getting present
+2025-01-14 00:24:31.697 +02:00 [INF] Getting present
+2025-01-14 00:25:48.036 +02:00 [INF] post present
+2025-01-14 00:25:48.329 +02:00 [INF] Getting present
+2025-01-14 00:25:53.229 +02:00 [INF] Search Present
+2025-01-14 00:25:55.177 +02:00 [INF] Getting present
+2025-01-14 00:25:56.356 +02:00 [INF] Search Present
+2025-01-14 00:25:57.389 +02:00 [INF] Getting present
+2025-01-14 00:25:58.592 +02:00 [INF] Search Present
+2025-01-14 00:25:59.754 +02:00 [INF] Search Present
+2025-01-14 00:26:00.528 +02:00 [INF] Search Present
+2025-01-14 00:26:00.682 +02:00 [INF] Getting present
+2025-01-14 00:26:01.642 +02:00 [INF] Search Present
+2025-01-14 00:26:01.863 +02:00 [INF] Search Present
+2025-01-14 00:26:03.223 +02:00 [INF] Search Present
+2025-01-14 00:26:03.364 +02:00 [INF] Getting present
+2025-01-14 00:28:59.289 +02:00 [INF] Getting present
+2025-01-14 00:29:06.846 +02:00 [INF] Getting present
+2025-01-14 00:29:08.393 +02:00 [INF] Getting Donor
+2025-01-14 00:29:11.210 +02:00 [INF] Getting present
+2025-01-14 13:59:39.802 +02:00 [INF] Starting up the API...
+2025-01-14 14:08:16.538 +02:00 [INF] Getting present
+2025-01-14 14:08:20.758 +02:00 [INF] Getting present
+2025-01-14 14:08:23.643 +02:00 [INF] Getting present
+2025-01-14 14:08:37.862 +02:00 [INF] Search Present
+2025-01-14 14:08:39.051 +02:00 [INF] Search Present
+2025-01-14 14:08:41.293 +02:00 [INF] Search Present
+2025-01-14 14:08:43.348 +02:00 [INF] Getting present
+2025-01-14 14:08:51.952 +02:00 [INF] Getting present
+2025-01-14 14:09:39.415 +02:00 [INF] Getting present
+2025-01-14 14:09:41.584 +02:00 [INF] Getting Donor
+2025-01-14 14:09:50.607 +02:00 [INF] Getting User
+2025-01-14 14:10:03.960 +02:00 [INF] Getting Donor
+2025-01-14 14:10:05.216 +02:00 [INF] Getting present
+2025-01-14 14:27:35.537 +02:00 [INF] Search Present
+2025-01-14 14:27:36.961 +02:00 [INF] Search Present
+2025-01-14 14:27:38.315 +02:00 [INF] Search Present
+2025-01-14 14:27:38.464 +02:00 [INF] Getting present
+2025-01-14 14:34:16.557 +02:00 [INF] Search Present
+2025-01-14 14:34:16.592 +02:00 [INF] Search Present
+2025-01-14 14:34:17.950 +02:00 [INF] Search Present
+2025-01-14 14:34:18.154 +02:00 [INF] Getting present
+2025-01-14 14:34:18.771 +02:00 [INF] Search Present
+2025-01-14 14:34:20.031 +02:00 [INF] Getting present
+2025-01-14 14:34:20.960 +02:00 [INF] Search Present
+2025-01-14 14:34:21.447 +02:00 [INF] Search Present
+2025-01-14 14:34:22.206 +02:00 [INF] Search Present
+2025-01-14 14:34:22.380 +02:00 [INF] Getting present
+2025-01-14 14:42:19.132 +02:00 [INF] Getting present
+2025-01-14 14:42:22.655 +02:00 [INF] Getting User
+2025-01-14 14:44:43.353 +02:00 [INF] Getting User
+2025-01-14 15:04:22.634 +02:00 [INF] Getting present
+2025-01-14 15:04:25.626 +02:00 [INF] Getting present
+2025-01-14 15:04:26.639 +02:00 [INF] Getting Donor
+2025-01-14 15:04:31.922 +02:00 [INF] Getting Donor
+2025-01-14 15:04:34.452 +02:00 [INF] Getting present
+2025-01-14 15:04:38.983 +02:00 [INF] Getting present
+2025-01-14 15:04:53.488 +02:00 [INF] Getting present
+2025-01-14 16:53:10.813 +02:00 [INF] Getting present
+2025-01-14 16:57:42.508 +02:00 [INF] Getting present
+2025-01-14 16:57:49.849 +02:00 [INF] Getting Donor
+2025-01-14 16:57:53.364 +02:00 [INF] Getting present
+2025-01-14 16:57:55.343 +02:00 [INF] Getting present
+2025-01-14 16:57:56.611 +02:00 [INF] Getting present
+2025-01-14 16:57:58.593 +02:00 [INF] Getting present
+2025-01-14 16:57:59.743 +02:00 [INF] Getting Donor
+2025-01-14 16:58:01.654 +02:00 [INF] Getting Donor
+2025-01-14 16:58:02.454 +02:00 [INF] Getting present
+2025-01-14 16:58:04.048 +02:00 [INF] Getting present
+2025-01-14 16:58:05.730 +02:00 [INF] Getting present
+2025-01-14 16:58:07.399 +02:00 [INF] Getting present
+2025-01-14 16:58:56.114 +02:00 [INF] Getting present
+2025-01-14 17:01:11.479 +02:00 [INF] Getting User
+2025-01-14 17:09:14.513 +02:00 [INF] Getting User
+2025-01-14 17:15:21.441 +02:00 [INF] Getting User
+2025-01-14 17:17:45.849 +02:00 [INF] post User
+2025-01-14 17:17:47.022 +02:00 [INF] Getting present
+2025-01-14 17:17:51.795 +02:00 [INF] Getting User
+2025-01-14 18:08:01.469 +02:00 [INF] Starting up the API...
+2025-01-14 18:09:58.289 +02:00 [INF] Getting present
+2025-01-14 18:10:00.503 +02:00 [INF] Getting present
+2025-01-14 18:10:02.318 +02:00 [INF] Getting present
+2025-01-14 18:10:02.916 +02:00 [INF] Getting Donor
+2025-01-14 18:10:07.369 +02:00 [INF] Getting User
+2025-01-14 18:10:56.169 +02:00 [INF] Getting present
+2025-01-14 18:11:03.045 +02:00 [INF] Getting present
+2025-01-14 18:11:05.106 +02:00 [INF] Getting present
+2025-01-14 18:11:07.026 +02:00 [INF] Getting present
+2025-01-14 18:11:09.971 +02:00 [INF] Getting present
+2025-01-14 18:11:26.659 +02:00 [INF] Getting present
+2025-01-14 18:11:28.545 +02:00 [INF] Getting present
+2025-01-14 18:12:32.097 +02:00 [INF] Starting up the API...
+2025-01-14 18:12:50.544 +02:00 [INF] Getting present
+2025-01-14 18:13:08.420 +02:00 [INF] Getting User
+2025-01-14 18:17:14.605 +02:00 [INF] Getting User
+2025-01-14 18:20:30.960 +02:00 [INF] Getting User
+2025-01-14 18:20:42.193 +02:00 [INF] Getting User
+2025-01-14 18:21:37.109 +02:00 [INF] Getting User
+2025-01-14 18:32:00.806 +02:00 [INF] Getting User
+2025-01-14 18:34:17.321 +02:00 [INF] Starting up the API...
+2025-01-14 18:34:34.955 +02:00 [INF] Getting present
+2025-01-14 18:34:42.644 +02:00 [INF] Getting User
+2025-01-14 18:35:25.983 +02:00 [INF] Starting up the API...
+2025-01-14 18:35:40.031 +02:00 [INF] Getting present
+2025-01-14 18:36:10.902 +02:00 [INF] Getting User
+2025-01-14 18:38:37.102 +02:00 [INF] Getting User
+2025-01-14 18:45:01.849 +02:00 [INF] post User
+2025-01-14 18:45:02.522 +02:00 [INF] Getting present
+2025-01-14 18:45:07.528 +02:00 [INF] Getting present
+2025-01-14 18:47:30.066 +02:00 [INF] Getting User
+2025-01-14 18:50:03.333 +02:00 [INF] Getting User
+2025-01-14 18:52:35.069 +02:00 [INF] Getting User
+2025-01-14 18:52:35.412 +02:00 [INF] Getting present
+2025-01-14 18:53:23.853 +02:00 [INF] post User
+2025-01-14 18:53:24.126 +02:00 [INF] Getting present
+2025-01-14 18:54:30.093 +02:00 [INF] Getting User
+2025-01-14 18:55:36.768 +02:00 [INF] Starting up the API...
+2025-01-14 18:55:50.567 +02:00 [INF] Getting present
+2025-01-14 18:56:03.389 +02:00 [INF] Getting User
+2025-01-14 18:56:04.440 +02:00 [INF] Getting present
+2025-01-14 18:56:38.349 +02:00 [INF] Getting present
+2025-01-14 18:56:39.841 +02:00 [INF] Getting present
+2025-01-14 18:56:41.097 +02:00 [INF] Getting present
+2025-01-14 18:56:44.666 +02:00 [INF] Getting Donor
+2025-01-14 18:56:45.239 +02:00 [INF] Getting present
+2025-01-14 18:56:46.860 +02:00 [INF] Getting present
+2025-01-14 18:56:49.025 +02:00 [INF] Getting present
+2025-01-14 18:57:33.936 +02:00 [INF] post User
+2025-01-14 18:57:34.472 +02:00 [INF] Getting present
+2025-01-14 18:57:39.724 +02:00 [INF] Getting User
+2025-01-14 18:57:48.396 +02:00 [INF] Starting up the API...
+2025-01-14 18:58:00.830 +02:00 [INF] Getting present
+2025-01-14 18:58:03.697 +02:00 [INF] Getting User
+2025-01-14 19:00:05.670 +02:00 [INF] Starting up the API...
+2025-01-14 19:01:11.443 +02:00 [INF] Getting present
+2025-01-14 19:01:15.326 +02:00 [INF] Getting present
+2025-01-14 19:01:17.203 +02:00 [INF] Getting Donor
+2025-01-14 19:01:24.589 +02:00 [INF] Getting User
+2025-01-14 19:02:20.448 +02:00 [INF] Starting up the API...
+2025-01-14 19:03:09.336 +02:00 [INF] post User
+2025-01-14 19:03:33.152 +02:00 [INF] Getting present
+2025-01-14 19:03:45.644 +02:00 [INF] Getting User
+2025-01-14 19:03:46.319 +02:00 [INF] Getting present
+2025-01-14 19:05:30.321 +02:00 [INF] Getting present
+2025-01-14 19:05:38.070 +02:00 [INF] Getting present
+2025-01-14 19:05:40.028 +02:00 [INF] Search Present
+2025-01-14 19:05:40.928 +02:00 [INF] Search Present
+2025-01-14 19:05:41.440 +02:00 [INF] Search Present
+2025-01-14 19:05:41.620 +02:00 [INF] Getting present
+2025-01-14 19:05:42.462 +02:00 [INF] Search Present
+2025-01-14 19:05:43.151 +02:00 [INF] Getting present

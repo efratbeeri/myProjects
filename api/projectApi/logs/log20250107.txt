@@ -1,0 +1,73 @@
+2025-01-07 00:43:54.411 +02:00 [INF] Starting up the API...
+2025-01-07 00:44:06.061 +02:00 [INF] Getting present
+2025-01-07 00:44:33.818 +02:00 [INF] Getting present
+2025-01-07 00:44:44.130 +02:00 [INF] Getting present
+2025-01-07 00:45:18.893 +02:00 [INF] Getting present
+2025-01-07 00:45:44.714 +02:00 [INF] Getting present
+2025-01-07 00:55:12.448 +02:00 [INF] Starting up the API...
+2025-01-07 00:55:19.697 +02:00 [INF] Getting present
+2025-01-07 16:04:02.166 +02:00 [INF] Starting up the API...
+2025-01-07 16:04:14.128 +02:00 [INF] Getting present
+2025-01-07 16:04:33.024 +02:00 [INF] Getting present
+2025-01-07 16:05:01.171 +02:00 [INF] Getting present
+2025-01-07 16:05:31.758 +02:00 [INF] Getting present
+2025-01-07 16:05:52.999 +02:00 [INF] Getting present
+2025-01-07 16:12:51.737 +02:00 [INF] Starting up the API...
+2025-01-07 16:13:25.712 +02:00 [INF] Getting present
+2025-01-07 16:14:29.977 +02:00 [INF] Getting present
+2025-01-07 16:14:39.060 +02:00 [INF] Getting present
+2025-01-07 16:14:41.241 +02:00 [INF] Getting present
+2025-01-07 16:14:57.072 +02:00 [INF] Getting present
+2025-01-07 16:17:15.617 +02:00 [INF] Getting present
+2025-01-07 16:20:31.562 +02:00 [INF] Getting present
+2025-01-07 16:20:35.864 +02:00 [INF] Getting present
+2025-01-07 16:21:45.148 +02:00 [INF] Getting present
+2025-01-07 16:21:50.237 +02:00 [INF] Getting present
+2025-01-07 16:22:22.136 +02:00 [INF] Getting present
+2025-01-07 16:24:06.916 +02:00 [INF] Getting present
+2025-01-07 16:25:45.920 +02:00 [INF] Getting present
+2025-01-07 16:34:34.170 +02:00 [INF] Getting present
+2025-01-07 16:34:58.706 +02:00 [INF] Getting present
+2025-01-07 16:46:25.256 +02:00 [INF] Starting up the API...
+2025-01-07 16:48:19.932 +02:00 [INF] Getting present
+2025-01-07 17:49:00.582 +02:00 [INF] Starting up the API...
+2025-01-07 17:49:16.283 +02:00 [INF] Starting up the API...
+2025-01-07 18:41:12.323 +02:00 [INF] Starting up the API...
+2025-01-07 18:41:23.014 +02:00 [INF] Starting up the API...
+2025-01-07 18:41:44.007 +02:00 [INF] Getting present
+2025-01-07 18:41:59.620 +02:00 [INF] Getting present
+2025-01-07 18:43:15.977 +02:00 [INF] Starting up the API...
+2025-01-07 18:43:23.633 +02:00 [INF] Getting present
+2025-01-07 18:43:39.075 +02:00 [INF] Getting present
+2025-01-07 18:43:42.963 +02:00 [INF] Getting present
+2025-01-07 18:43:48.259 +02:00 [INF] Getting present
+2025-01-07 18:44:15.224 +02:00 [INF] Getting present
+2025-01-07 18:49:22.472 +02:00 [INF] Getting present
+2025-01-07 18:54:09.664 +02:00 [INF] Getting present
+2025-01-07 18:54:15.404 +02:00 [INF] Getting present
+2025-01-07 18:55:46.427 +02:00 [INF] Getting present
+2025-01-07 18:56:49.203 +02:00 [INF] Getting present
+2025-01-07 18:58:20.343 +02:00 [INF] Getting present
+2025-01-07 18:58:36.920 +02:00 [INF] Getting present
+2025-01-07 19:49:42.256 +02:00 [INF] Starting up the API...
+2025-01-07 19:49:49.263 +02:00 [INF] Getting present
+2025-01-07 19:50:08.311 +02:00 [INF] Starting up the API...
+2025-01-07 19:50:43.642 +02:00 [INF] Getting present
+2025-01-07 19:50:56.154 +02:00 [INF] Getting present
+2025-01-07 19:51:03.824 +02:00 [INF] Getting present
+2025-01-07 19:51:06.899 +02:00 [INF] Getting present
+2025-01-07 22:51:47.056 +02:00 [INF] Starting up the API...
+2025-01-07 22:52:04.007 +02:00 [INF] Starting up the API...
+2025-01-07 22:52:28.753 +02:00 [INF] Getting present
+2025-01-07 23:45:17.368 +02:00 [INF] Starting up the API...
+2025-01-07 23:46:05.892 +02:00 [INF] Getting present
+2025-01-07 23:46:53.738 +02:00 [INF] Getting present
+2025-01-07 23:48:13.073 +02:00 [INF] Getting present
+2025-01-07 23:48:17.429 +02:00 [INF] Getting present
+2025-01-07 23:48:35.381 +02:00 [INF] Getting present
+2025-01-07 23:51:04.232 +02:00 [INF] Getting present
+2025-01-07 23:51:35.837 +02:00 [INF] Getting present
+2025-01-07 23:51:44.212 +02:00 [INF] Getting present
+2025-01-07 23:51:47.188 +02:00 [INF] Getting present
+2025-01-07 23:55:32.246 +02:00 [INF] Getting present
+2025-01-07 23:58:41.481 +02:00 [INF] Getting present

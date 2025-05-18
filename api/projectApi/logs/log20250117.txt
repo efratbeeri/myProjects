@@ -1,0 +1,11 @@
+2025-01-17 00:00:31.363 +02:00 [INF] Getting present
+2025-01-17 00:00:37.017 +02:00 [INF] post Purchases
+2025-01-17 00:00:43.226 +02:00 [INF] Getting present
+2025-01-17 00:05:58.851 +02:00 [INF] post Purchases
+2025-01-17 00:08:35.538 +02:00 [INF] Getting present
+2025-01-17 00:09:59.727 +02:00 [INF] Getting present
+2025-01-17 00:10:04.978 +02:00 [INF] Getting present
+2025-01-17 00:12:02.799 +02:00 [INF] Getting present
+2025-01-17 00:12:17.562 +02:00 [INF] Getting present
+2025-01-17 00:14:35.956 +02:00 [INF] Getting present
+2025-01-17 00:15:01.946 +02:00 [INF] post Purchases
